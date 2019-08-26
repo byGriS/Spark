@@ -1,0 +1,43 @@
+C:\Users\GriS\Downloads\Искра\SparkOutput\obj\Debug\SparkOutput.csprojResolveAssemblyReference.cache
+C:\Users\GriS\Downloads\Искра\SparkOutput\bin\Debug\SparkOutput.exe.config
+C:\Users\GriS\Downloads\Искра\SparkOutput\bin\Debug\SparkOutput.exe
+C:\Users\GriS\Downloads\Искра\SparkOutput\bin\Debug\SparkOutput.pdb
+C:\Users\GriS\Downloads\Искра\SparkOutput\bin\Debug\log4net.dll
+C:\Users\GriS\Downloads\Искра\SparkOutput\bin\Debug\Modbus.dll
+C:\Users\GriS\Downloads\Искра\SparkOutput\bin\Debug\Newtonsoft.Json.dll
+C:\Users\GriS\Downloads\Искра\SparkOutput\bin\Debug\Service.dll
+C:\Users\GriS\Downloads\Искра\SparkOutput\bin\Debug\Unme.Common.dll
+C:\Users\GriS\Downloads\Искра\SparkOutput\bin\Debug\OxyPlot.dll
+C:\Users\GriS\Downloads\Искра\SparkOutput\bin\Debug\Service.pdb
+C:\Users\GriS\Downloads\Искра\SparkOutput\bin\Debug\Newtonsoft.Json.xml
+C:\Users\GriS\Downloads\Искра\SparkOutput\obj\Debug\SparkOutput.exe
+C:\Users\GriS\Downloads\Искра\SparkOutput\obj\Debug\SparkOutput.pdb
+C:\Users\GriS\Downloads\Искра\SparkOutput\bin\Debug\System.Data.SQLite.dll
+C:\Users\GriS\Downloads\Искра\SparkOutput\bin\Debug\Core.dll
+C:\Users\GriS\Downloads\Искра\SparkOutput\bin\Debug\SparkControls.dll
+C:\Users\GriS\Downloads\Искра\SparkOutput\bin\Debug\OxyPlot.Wpf.dll
+C:\Users\GriS\Downloads\Искра\SparkOutput\bin\Debug\Core.pdb
+C:\Users\GriS\Downloads\Искра\SparkOutput\bin\Debug\SparkControls.pdb
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\SparkOutput\bin\Debug\SparkOutput.exe.config
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\SparkOutput\bin\Debug\SparkOutput.exe
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\SparkOutput\bin\Debug\SparkOutput.pdb
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\SparkOutput\bin\Debug\Core.dll
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\SparkOutput\bin\Debug\log4net.dll
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\SparkOutput\bin\Debug\Modbus.dll
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\SparkOutput\bin\Debug\Newtonsoft.Json.dll
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\SparkOutput\bin\Debug\Service.dll
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\SparkOutput\bin\Debug\System.Data.SQLite.dll
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\SparkOutput\bin\Debug\Unme.Common.dll
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\SparkOutput\bin\Debug\SparkControls.dll
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\SparkOutput\bin\Debug\OxyPlot.dll
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\SparkOutput\bin\Debug\OxyPlot.Wpf.dll
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\SparkOutput\bin\Debug\Core.pdb
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\SparkOutput\bin\Debug\Service.pdb
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\SparkOutput\bin\Debug\Newtonsoft.Json.xml
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\SparkOutput\bin\Debug\SparkControls.pdb
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\SparkOutput\obj\Debug\SparkOutput.csprojResolveAssemblyReference.cache
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\SparkOutput\obj\Debug\SparkOutput.exe
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\SparkOutput\obj\Debug\SparkOutput.pdb
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\Spark\bin\Debug\SparkOutput.exe.config
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\Spark\bin\Debug\SparkOutput.exe
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\Spark\bin\Debug\SparkOutput.pdb

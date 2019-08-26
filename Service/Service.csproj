@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{42FA2D61-8BA6-436C-B4B5-462E501F94B3}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Service</RootNamespace>
+    <AssemblyName>Service</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="OxyPlot">
+      <HintPath>..\Spark\bin\Debug\OxyPlot.dll</HintPath>
+    </Reference>
+    <Reference Include="OxyPlot.Wpf">
+      <HintPath>..\Spark\bin\Debug\OxyPlot.Wpf.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DataParam.cs" />
+    <Compile Include="DataParamOutput.cs" />
+    <Compile Include="GraphSetting.cs" />
+    <Compile Include="IContract.cs" />
+    <Compile Include="IContractIn.cs" />
+    <Compile Include="IContractOut.cs" />
+    <Compile Include="Input.cs" />
+    <Compile Include="InputCommon.cs" />
+    <Compile Include="InputEthernet.cs" />
+    <Compile Include="InputSerial.cs" />
+    <Compile Include="InputType.cs" />
+    <Compile Include="Log.cs" />
+    <Compile Include="MessageQuestion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MessageQuestion.Designer.cs">
+      <DependentUpon>MessageQuestion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MessageInput.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MessageInput.Designer.cs">
+      <DependentUpon>MessageInput.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MessageToggle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MessageToggle.Designer.cs">
+      <DependentUpon>MessageToggle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MessageView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MessageView.Designer.cs">
+      <DependentUpon>MessageView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModbusCommandInput.cs" />
+    <Compile Include="ModbusType.cs" />
+    <Compile Include="PairDataParam.cs" />
+    <Compile Include="ParamType.cs" />
+    <Compile Include="ParamUnit.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="SerialPortConvert.cs" />
+    <Compile Include="WorkFile.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="MessageQuestion.resx">
+      <DependentUpon>MessageQuestion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MessageInput.resx">
+      <DependentUpon>MessageInput.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MessageToggle.resx">
+      <DependentUpon>MessageToggle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MessageView.resx">
+      <DependentUpon>MessageView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Attention.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Message.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Error.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\keyboard.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

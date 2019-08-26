@@ -1,0 +1,178 @@
+﻿<UserControl x:Class="Spark.SerialSettingControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Spark"
+             mc:Ignorable="d" 
+             d:DesignHeight="380" d:DesignWidth="250">
+    <StackPanel>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Label Content="Название входа" />
+            <TextBox x:Name="tbSerialName" Grid.Column="1" Margin="3" VerticalContentAlignment="Center" Width="120" TextChanged="tbSerialName_TextChanged" />
+        </Grid>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Label Content="Имя порта" />
+            <ComboBox Grid.Column="1" x:Name="cbPortName" VerticalContentAlignment="Center" Margin="3" Width="120"
+                      SelectedItem="{Binding PortName}"/>
+        </Grid>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Label Content="Скорость" />
+            <ComboBox Grid.Column="1" x:Name="cbBaudRate" VerticalContentAlignment="Center" Margin="3" Width="120"
+                      SelectedItem="{Binding BaudRate}">
+
+            </ComboBox>
+        </Grid>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Label Content="Биты данных" />
+            <ComboBox Grid.Column="1" x:Name="cbDataBits" VerticalContentAlignment="Center" Margin="3" Width="120"
+                  SelectedItem="{Binding DataBits}">
+            </ComboBox>
+        </Grid>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Label Content="Четность" />
+            <ComboBox Grid.Column="1" x:Name="cbParity" VerticalContentAlignment="Center" Margin="3" Width="120"
+                      SelectionChanged="cbParity_SelectionChanged">
+                <ComboBoxItem Content="Четн."/>
+                <ComboBoxItem Content="Нечетн."/>
+                <ComboBoxItem Content="Нет"/>
+                <ComboBoxItem Content="Mark"/>
+                <ComboBoxItem Content="Space"/>
+            </ComboBox>
+        </Grid>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Label Content="Стоп бит" />
+            <ComboBox Grid.Column="1" x:Name="cbStopBits" VerticalContentAlignment="Center" Margin="3" Width="120"
+                      SelectionChanged="cbStopBits_SelectionChanged">
+                <ComboBoxItem Content="1"/>
+                <ComboBoxItem Content="1.5"/>
+                <ComboBoxItem Content="2"/>
+            </ComboBox>
+        </Grid>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Label Content="Управление потоком" />
+            <ComboBox Grid.Column="1" x:Name="cbHandshake" VerticalContentAlignment="Center" Margin="3" Width="120"
+                      SelectionChanged="cbHandshake_SelectionChanged">
+                <ComboBoxItem Content="Нет"/>
+                <ComboBoxItem Content="XOnXOff"/>
+                <ComboBoxItem Content="Аппаратное"/>
+            </ComboBox>
+        </Grid>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Label Content="Размер буфера, байт" />
+            <TextBox Grid.Column="1" x:Name="tbBufferSize" VerticalContentAlignment="Center" Margin="3" Width="120"
+                     PreviewTextInput="OnlyNumber_PreviewTextInput"
+                     Text="{Binding ReadBufferSize}"/>
+        </Grid>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Label Content="Время ожидания, мс" />
+            <TextBox Grid.Column="1" x:Name="tbTimeout" VerticalContentAlignment="Center" Margin="3" Width="120"
+                     PreviewTextInput="OnlyNumber_PreviewTextInput"
+                     Text="{Binding ReadTimeout}"/>
+        </Grid>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Label Content="DTR" />
+            <CheckBox Grid.Column="1" x:Name="cDTR" VerticalContentAlignment="Center" Margin="3" Content="Включен"
+                      IsChecked="{Binding Dtr}"/>
+        </Grid>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Label Content="RTS" />
+            <CheckBox Grid.Column="1" x:Name="cRTS" VerticalContentAlignment="Center" Margin="3" Content="Включен"
+                      IsChecked="{Binding Rts}"/>
+        </Grid>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Label Content="Тип данных" />
+            <ComboBox Grid.Column="1" x:Name="cbInputType" 
+                      VerticalContentAlignment="Center"
+                      Margin="3" 
+                      Width="120"
+                      SelectionChanged="cbInputType_SelectionChanged">
+                <ComboBoxItem Content="Текстовая строка"/>
+                <ComboBoxItem Content="Modbus RTU"/>
+            </ComboBox>
+        </Grid>
+        <Grid x:Name="gridSplitter">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Label x:Name="lSymbolSplitter"  Content="Символ разделитель" />
+            <TextBox Grid.Column="1" 
+                     x:Name="tbSymbolSplitter"
+                     VerticalContentAlignment="Center" 
+                     Margin="3" 
+                     Width="120"
+                     Text="{Binding SymbolSplitter}"/>
+        </Grid>
+        <Grid x:Name="gridIDSlave" Visibility="Collapsed">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Label x:Name="lIDSlave"  Content="ID slave" />
+            <TextBox Grid.Column="1" 
+                     x:Name="tbIDSlave"
+                     VerticalContentAlignment="Center" 
+                     Margin="3" 
+                     Width="120"
+                     Text="{Binding IDSlave}"/>
+        </Grid>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Label x:Name="lUsed" Content="Активность" />
+            <CheckBox Grid.Column="1" x:Name="cUsed" VerticalContentAlignment="Center" Margin="3" Content="Включен"
+                      IsChecked="{Binding IsUsed}"/>
+        </Grid>
+    </StackPanel>
+</UserControl>

@@ -1,0 +1,5 @@
+C:\Users\GriS\documents\visual studio 2015\Projects\Искра\Services\bin\Debug\Services.dll
+C:\Users\GriS\documents\visual studio 2015\Projects\Искра\Services\bin\Debug\Services.pdb
+C:\Users\GriS\documents\visual studio 2015\Projects\Искра\Services\obj\Debug\Services.csprojResolveAssemblyReference.cache
+C:\Users\GriS\documents\visual studio 2015\Projects\Искра\Services\obj\Debug\Services.dll
+C:\Users\GriS\documents\visual studio 2015\Projects\Искра\Services\obj\Debug\Services.pdb

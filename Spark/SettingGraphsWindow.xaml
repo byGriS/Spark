@@ -1,0 +1,136 @@
+﻿<Window x:Class="Spark.SettingGraphsWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Spark"
+        mc:Ignorable="d"
+        Title="Настройки графика" Height="400" Width="500"
+        WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition/>
+            <RowDefinition Height="36"/>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition />
+                <ColumnDefinition />
+            </Grid.ColumnDefinitions>
+            <StackPanel x:Name="spPanel" Grid.Column="0" Margin="5">
+                <CheckBox x:Name="cLegendVis" Content="Легенда" IsChecked="{Binding LegendVis}"/>
+                <StackPanel Orientation="Horizontal">
+                    <Label Content="Размер шрифта"/>
+                    <ComboBox x:Name="cbLegendSizeFont" Width="50" Margin="3" 
+                         ItemsSource="{Binding}"
+                         SelectedValue="{Binding LegendSizeFont}">
+                    </ComboBox>
+                </StackPanel>
+                <Label Content="Расположение легенды:"/>
+                <StackPanel Orientation="Horizontal" Margin="10 0">
+                    <Border BorderBrush="Black" BorderThickness="1" Margin="5" Width="175" Height="100" >
+                        <Grid x:Name="gridPosLegend">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition/>
+                                <ColumnDefinition/>
+                                <ColumnDefinition/>
+                            </Grid.ColumnDefinitions>
+                            <Grid.RowDefinitions>
+                                <RowDefinition/>
+                                <RowDefinition/>
+                                <RowDefinition/>
+                            </Grid.RowDefinitions>
+                            <Button x:Name="bTL" Grid.Column="0" Grid.Row="0"  Click="Pos_Click" Margin="5"/>
+                            <Button x:Name="bTC" Grid.Column="1" Grid.Row="0"  Click="Pos_Click" Margin="5"/>
+                            <Button x:Name="bTR" Grid.Column="2" Grid.Row="0"  Click="Pos_Click" Margin="5"/>
+                            <Button x:Name="bML" Grid.Column="0" Grid.Row="1"  Click="Pos_Click" Margin="5"/>
+                            <Button x:Name="bMR" Grid.Column="2" Grid.Row="1"  Click="Pos_Click" Margin="5"/>
+                            <Button x:Name="bBL" Grid.Column="0" Grid.Row="2"  Click="Pos_Click" Margin="5"/>
+                            <Button x:Name="bBC" Grid.Column="1" Grid.Row="2"  Click="Pos_Click" Margin="5"/>
+                            <Button x:Name="bBR" Grid.Column="2" Grid.Row="2"  Click="Pos_Click" Margin="5"/>
+                        </Grid>
+                    </Border>
+                </StackPanel>
+            </StackPanel>
+            <StackPanel Grid.Column="1" Margin="5">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="3*"/>
+                        <ColumnDefinition Width="1.5*"/>
+                    </Grid.ColumnDefinitions>
+                    <Label Grid.Column="0" Content="Толщина линии графика" Padding="0 5"/>
+                    <ComboBox Grid.Column="1" x:Name="cbLineWidth" Width="55" Margin="3"
+                         ItemsSource="{Binding}"
+                         SelectedValue="{Binding LineWidth}">
+                    </ComboBox>
+                </Grid>
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="3*"/>
+                        <ColumnDefinition Width="1.5*"/>
+                    </Grid.ColumnDefinitions>
+                    <Label Grid.Column="0"  Content="Размер шрифта осей" Padding="0 5"/>
+                    <ComboBox Grid.Column="1" x:Name="cbAxisSizeFont" Width="55" Margin="3"
+                         ItemsSource="{Binding}"
+                         SelectedValue="{Binding AxisSizeFont}">
+                    </ComboBox>
+                </Grid>
+            </StackPanel>
+        </Grid>
+        <Grid Grid.Row="1">
+            <DataGrid 
+            x:Name="graphParamsSet"
+            AutoGenerateColumns="False"
+            ItemsSource="{Binding}"
+            CanUserDeleteRows="False"
+            CanUserAddRows="False"
+            SelectionMode="Extended"
+            RowHeaderWidth="0"
+            CanUserSortColumns="False">
+                <DataGrid.Columns>
+                    <DataGridTextColumn
+                        Header="Параметр"
+                        Width="3*"
+                        IsReadOnly="True"
+                        Binding="{Binding Path=Title}"/>
+                    <DataGridTemplateColumn
+                        Header="Цвет" 
+                        Width="0.7*">
+                        <DataGridTemplateColumn.CellTemplate>
+                            <DataTemplate>
+                                <Button Background="{Binding Path=ColorLine}" Click="ColorChange_Click"/>
+                            </DataTemplate>
+                        </DataGridTemplateColumn.CellTemplate>
+                    </DataGridTemplateColumn>
+                    <DataGridTemplateColumn
+                        Header="ОУ справа" 
+                        Width="1*">
+                        <DataGridTemplateColumn.CellTemplate>
+                            <DataTemplate>
+                                <CheckBox IsChecked="{Binding Path=IsRight}" Click="chRight_Click" 
+                                  HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                            </DataTemplate>
+                        </DataGridTemplateColumn.CellTemplate>
+                    </DataGridTemplateColumn>
+                    <DataGridTextColumn
+                        Header="MinY"
+                        Width="1*"
+                        IsReadOnly="False"
+                        Binding="{Binding Path=MinY}"/>
+                    <DataGridTextColumn
+                        Header="MaxY"
+                        Width="1*"
+                        IsReadOnly="False"
+                        Binding="{Binding Path=MaxY}"/>
+                </DataGrid.Columns>
+            </DataGrid>
+        </Grid>
+        <Grid Grid.Row="2">
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" Margin="5">
+                <Button Content="Применить" Margin="5 0" Padding="10 0" Click="Apply_Click"/>
+                <Button Content="Отмена" Margin="5 0" Padding="10 0" Click="Cancel_Click"/>
+            </StackPanel>
+        </Grid>
+    </Grid>
+</Window>

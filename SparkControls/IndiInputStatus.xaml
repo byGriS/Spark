@@ -1,0 +1,34 @@
+﻿<UserControl x:Class="SparkControls.IndiInputStatus"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:SparkControls"
+             mc:Ignorable="d" 
+             d:DesignHeight="150" d:DesignWidth="200"
+             Background="#FFDADADA"
+             BorderBrush="Black" 
+             BorderThickness="2">
+  <Grid>
+    <Grid.Resources>
+      <Style TargetType="{x:Type Grid}">
+        <Setter Property="Background" Value="#FFDADADA"/>
+      </Style>
+    </Grid.Resources>
+    <Grid.RowDefinitions>
+      <RowDefinition Height="1*"/>
+      <RowDefinition Height="3*"/>
+    </Grid.RowDefinitions>
+    <Grid Grid.Row="0">
+      <Viewbox Grid.Column="0">
+        <Label Content='{Binding IndiTitle, FallbackValue="Состояние входа", Mode=TwoWay}' Foreground="#FF101010" FontWeight="Bold" Padding="2"/>
+      </Viewbox>
+    </Grid>
+    <Viewbox Grid.Row="1">
+      <Canvas Margin="5" x:Name="cShow" Height="100" Width="100">
+        <Ellipse x:Name="ellipse" Fill="Yellow" Stroke="Black" StrokeThickness="2"
+                 Height="100" Width="100"/>
+      </Canvas>
+    </Viewbox>
+  </Grid>
+</UserControl>

@@ -1,0 +1,49 @@
+C:\Users\GriS\Downloads\Искра\SparkInput\bin\Debug\SparkInput.exe.config
+C:\Users\GriS\Downloads\Искра\SparkInput\bin\Debug\SparkInput.exe
+C:\Users\GriS\Downloads\Искра\SparkInput\bin\Debug\SparkInput.pdb
+C:\Users\GriS\Downloads\Искра\SparkInput\bin\Debug\Service.dll
+C:\Users\GriS\Downloads\Искра\SparkInput\bin\Debug\Service.pdb
+C:\Users\GriS\Downloads\Искра\SparkInput\obj\Debug\SparkInput.csprojResolveAssemblyReference.cache
+C:\Users\GriS\Downloads\Искра\SparkInput\obj\Debug\SparkInput.exe
+C:\Users\GriS\Downloads\Искра\SparkInput\obj\Debug\SparkInput.pdb
+C:\Users\GriS\Downloads\Искра\SparkInput\bin\Debug\Core.dll
+C:\Users\GriS\Downloads\Искра\SparkInput\bin\Debug\SparkControls.dll
+C:\Users\GriS\Downloads\Искра\SparkInput\bin\Debug\Core.pdb
+C:\Users\GriS\Downloads\Искра\SparkInput\bin\Debug\SparkControls.pdb
+C:\Users\GriS\Downloads\Искра\SparkInput\bin\Debug\Newtonsoft.Json.dll
+C:\Users\GriS\Downloads\Искра\SparkInput\bin\Debug\Newtonsoft.Json.xml
+C:\Users\GriS\documents\visual studio 2015\Projects\Искра\SparkInput\bin\Debug\Core.dll
+C:\Users\GriS\documents\visual studio 2015\Projects\Искра\SparkInput\bin\Debug\Newtonsoft.Json.dll
+C:\Users\GriS\documents\visual studio 2015\Projects\Искра\SparkInput\bin\Debug\Service.dll
+C:\Users\GriS\documents\visual studio 2015\Projects\Искра\SparkInput\bin\Debug\SparkControls.dll
+C:\Users\GriS\documents\visual studio 2015\Projects\Искра\SparkInput\bin\Debug\Core.pdb
+C:\Users\GriS\documents\visual studio 2015\Projects\Искра\SparkInput\bin\Debug\Service.pdb
+C:\Users\GriS\documents\visual studio 2015\Projects\Искра\SparkInput\bin\Debug\Newtonsoft.Json.xml
+C:\Users\GriS\documents\visual studio 2015\Projects\Искра\SparkInput\bin\Debug\SparkControls.pdb
+C:\Users\GriS\documents\visual studio 2015\Projects\Искра\SparkInput\obj\Debug\SparkInput.csprojResolveAssemblyReference.cache
+C:\Users\GriS\documents\visual studio 2015\Projects\Искра\SparkInput\obj\Debug\SparkInput.exe
+C:\Users\GriS\documents\visual studio 2015\Projects\Искра\SparkInput\obj\Debug\SparkInput.pdb
+C:\Users\GriS\documents\visual studio 2015\Projects\Искра\SparkInput\bin\Debug\SparkInput.exe.config
+C:\Users\GriS\documents\visual studio 2015\Projects\Искра\SparkInput\bin\Debug\SparkInput.exe
+C:\Users\GriS\documents\visual studio 2015\Projects\Искра\SparkInput\bin\Debug\SparkInput.pdb
+C:\Users\GriS\Downloads\Искра\SparkInput\bin\Debug\OxyPlot.Wpf.dll
+C:\Users\GriS\Downloads\Искра\SparkInput\bin\Debug\OxyPlot.dll
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\SparkInput\bin\Debug\SparkInput.exe.config
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\SparkInput\bin\Debug\SparkInput.exe
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\SparkInput\bin\Debug\SparkInput.pdb
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\SparkInput\bin\Debug\Core.dll
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\SparkInput\bin\Debug\Newtonsoft.Json.dll
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\SparkInput\bin\Debug\Service.dll
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\SparkInput\bin\Debug\SparkControls.dll
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\SparkInput\bin\Debug\OxyPlot.dll
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\SparkInput\bin\Debug\OxyPlot.Wpf.dll
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\SparkInput\bin\Debug\Core.pdb
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\SparkInput\bin\Debug\Service.pdb
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\SparkInput\bin\Debug\Newtonsoft.Json.xml
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\SparkInput\bin\Debug\SparkControls.pdb
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\SparkInput\obj\Debug\SparkInput.csprojResolveAssemblyReference.cache
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\SparkInput\obj\Debug\SparkInput.exe
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\SparkInput\obj\Debug\SparkInput.pdb
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\Spark\bin\Debug\SparkInput.exe.config
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\Spark\bin\Debug\SparkInput.exe
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\Spark\bin\Debug\SparkInput.pdb

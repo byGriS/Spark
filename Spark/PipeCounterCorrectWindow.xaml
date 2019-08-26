@@ -1,0 +1,77 @@
+﻿<Window x:Class="Spark.PipeCounterCorrectWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Spark"
+        mc:Ignorable="d"
+        Title="Корректор труб" 
+        Height="275"
+        Width="500"
+        ShowInTaskbar="False"
+        WindowStartupLocation="CenterOwner"
+        ResizeMode="NoResize"
+        Loaded="Window_Loaded">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition Height="32" />
+        </Grid.RowDefinitions>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="26"/>
+                    <RowDefinition/>
+                    <RowDefinition Height="26"/>
+                </Grid.RowDefinitions>
+                <Label Content="Базы данных:"/>
+                <ListBox 
+                        x:Name="lbDataBases"
+                        Grid.Row="1"
+                        SelectionMode="Single"
+                        SelectionChanged="lbDataBases_SelectionChanged"
+                        >
+                </ListBox>
+                <Button Grid.Row="2" x:Name="btnConnect" Margin="0 2" Content="Подключиться" Click="ConnectDB_Click"/>
+            </Grid>
+            <Grid Grid.Column="1">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="26"/>
+                    <RowDefinition/>
+                    <RowDefinition Height="26"/>
+                </Grid.RowDefinitions>
+                <Label Grid.Row="0" Content="Параметры:"/>
+                <ListBox 
+                        x:Name="lbParams"
+                        Grid.Row="1"
+                        SelectionMode="Single">
+                </ListBox>
+                <Button Grid.Row="2" 
+                                x:Name="btnRead"
+                                Margin="0 2" 
+                                Content="Считать данные" 
+                                IsEnabled="False"
+                                Click="Read_Click"/>
+            </Grid>
+            <StackPanel Margin="10" Grid.Column="2" HorizontalAlignment="Center">
+                    <Label Content="Последнее значение:"/>
+                <Label Content="{Binding ValueParam}" FontWeight="Bold" HorizontalContentAlignment="Center"/>
+                <StackPanel Margin="10">                    
+                    <Button x:Name="btnInt" Grid.Column="1" Content="Увеличить" Padding="2" Click="Increment_Click" IsEnabled="False"/>
+                    <Button x:Name="btnDec" Content="Уменьшить" Margin="0 10 0 0"  Padding="2" Click="Decrement_Click" IsEnabled="False"/>
+                </StackPanel>
+            </StackPanel>
+        </Grid>
+        
+        
+        
+        <StackPanel  Grid.Row="2" Background="Gray" Orientation="Horizontal" FlowDirection="RightToLeft">
+            <Button Content="Закрыть" Padding="3" Click="Ok_Click" Margin="3" Width="75"/>
+        </StackPanel>
+    </Grid>
+</Window>

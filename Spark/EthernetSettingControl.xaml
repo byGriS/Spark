@@ -1,0 +1,59 @@
+﻿<UserControl x:Class="Spark.EthernetSettingControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Spark"
+             mc:Ignorable="d" 
+             d:DesignHeight="110" d:DesignWidth="250">
+    <Grid>
+        <StackPanel>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <Label Content="Название входа" />
+                <TextBox x:Name="tbSerialName" Grid.Column="1" Margin="3" VerticalContentAlignment="Center" Width="120" TextChanged="tbSerialName_TextChanged" />
+            </Grid>
+            <Grid x:Name="gridIPAddress">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <Label Content="IP адрес" />
+                <TextBox x:Name="tbIP" Grid.Column="1" Margin="3" VerticalContentAlignment="Center" Width="120"
+                         Text="{Binding IPSlave}"
+                         LostFocus="tbIP_LostFocus"/>
+            </Grid>
+            <Grid x:Name="gridIDSlave" Visibility="Collapsed">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <Label Content="ID slave" />
+                <TextBox x:Name="tbIDSlave" Grid.Column="1" Margin="3" VerticalContentAlignment="Center" Width="120"
+                         Text="{Binding IDSlave}"/>
+            </Grid>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <Label Content="Порт" />
+                <TextBox x:Name="tbPort" Grid.Column="1" Margin="3" VerticalContentAlignment="Center" Width="120"
+                         Text="{Binding Port}"/>
+            </Grid>
+            
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <Label x:Name="lUsed" Content="Активность" />
+                <CheckBox Grid.Column="1" x:Name="cUsed" VerticalContentAlignment="Center" Margin="3" Content="Включен"
+                      IsChecked="{Binding IsUsed}"/>
+            </Grid>
+        </StackPanel>
+    </Grid>
+</UserControl>

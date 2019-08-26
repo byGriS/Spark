@@ -1,0 +1,112 @@
+﻿<Window x:Class="Spark.UnitSetWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Spark"
+        mc:Ignorable="d"
+        Title="Настройка типов параметров" 
+        Height="300" 
+        Width="300"
+        ShowInTaskbar="False"
+        WindowStartupLocation="CenterOwner"
+        ResizeMode="NoResize"
+        Loaded="Window_Loaded"
+        >
+    <Window.Resources>
+        <Image x:Key="add" Source="Resources/add.png"/>
+        <Image x:Key="insert" Source="Resources/insert.png"/>
+        <Image x:Key="remove" Source="Resources/remove.png"/>
+        <Image x:Key="add2" Source="Resources/add.png"/>
+        <Image x:Key="insert2" Source="Resources/insert.png"/>
+        <Image x:Key="remove2" Source="Resources/remove.png"/>
+    </Window.Resources>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="24"/>
+            <RowDefinition/>
+            <RowDefinition Height="32" />
+        </Grid.RowDefinitions>
+        
+        <StackPanel  Grid.Row="0" Background="Gray" Orientation="Horizontal">
+            <Menu HorizontalAlignment="Left" Background="{x:Null}">
+                <MenuItem  Header="Файл" Height="24">
+                    <MenuItem Header="Импортировать" Click="Import_Click"/>
+                    <MenuItem Header="Экспортировать" Click="Export_Click"/>
+                </MenuItem>
+            </Menu>
+        </StackPanel>
+
+       
+
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="30"/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            
+            <StackPanel Grid.Row="0" Orientation="Horizontal">
+                <Button Content="{StaticResource add}" Click="AddParam_Click" Margin="3" BorderThickness="0" Background="Transparent"/>
+                <Button x:Name="bInsertParam" Content="{StaticResource insert}" Click="InsertParam_Click" Margin="3" BorderThickness="0" Background="Transparent" Visibility="Hidden"/>
+                <Button x:Name="bRemoveParam" Content="{StaticResource remove}" Click="RemoveParam_Click" Margin="3" BorderThickness="0" Background="Transparent" Visibility="Hidden"/>
+            </StackPanel>
+            
+            <DataGrid x:Name="dgParam"
+                      Grid.Row="1"
+                      AutoGenerateColumns="False"                              
+                      CanUserDeleteRows="False"
+                      CanUserAddRows="False"
+                      SelectionMode="Single"
+                      SelectionUnit="CellOrRowHeader"
+                      RowHeaderWidth="20"
+                      ItemsSource="{Binding}"                      
+                      CurrentCellChanged="dgParam_CurrentCellChanged" 
+                      CanUserSortColumns="False"
+                      BeginningEdit="dgParam_BeginningEdit">
+                <DataGrid.Columns>
+                    <DataGridTextColumn 
+                        Header="Параметр"
+                        Width="1*"                        
+                        Binding="{Binding Path=Title}"
+                        />
+                </DataGrid.Columns>
+            </DataGrid>
+
+            <StackPanel Grid.Row="0" Grid.Column="1" Orientation="Horizontal">
+                <Button x:Name="bAddUnit" Content="{StaticResource add2}" Click="AddUnit_Click" Margin="3" BorderThickness="0" Background="Transparent" Visibility="Hidden"/>
+                <Button x:Name="bInsertUnit" Content="{StaticResource insert2}" Click="InsertUnit_Click" Margin="3" BorderThickness="0" Background="Transparent" Visibility="Hidden"/>
+                <Button x:Name="bRemoveUnit" Content="{StaticResource remove2}" Click="RemoveUnit_Click" Margin="3" BorderThickness="0" Background="Transparent" Visibility="Hidden"/>
+            </StackPanel>
+
+            <DataGrid x:Name="dgUnit"
+                      Grid.Column="1"
+                      Grid.Row="1"
+                      AutoGenerateColumns="False" 
+                      CanUserAddRows="False"
+                      CanUserDeleteRows="False"
+                      SelectionMode="Single"
+                      SelectionUnit="CellOrRowHeader"
+                      RowHeaderWidth="20"
+                      CanUserSortColumns="False" 
+                      CurrentCellChanged="dgUnit_CurrentCellChanged"
+                      BeginningEdit="dgParam_BeginningEdit">
+                <DataGrid.Columns>
+                    <DataGridTextColumn 
+                        Header="Ед. изм."
+                        Width="1*"
+                        Binding="{Binding Path=Title}"
+                        />
+                </DataGrid.Columns>
+            </DataGrid>
+        </Grid>
+        
+        <StackPanel  Grid.Row="2" Background="Gray" Orientation="Horizontal" FlowDirection="RightToLeft">
+            <Button Content="Ок" Padding="3" Click="Ok_Click" Margin="3" Width="75"/>
+            <Button Content="Отменить" Padding="3" Click="Cancel_Click" Margin="3" Width="75"/>
+        </StackPanel>
+    </Grid>
+</Window>

@@ -1,0 +1,20 @@
+C:\Users\GriS\Downloads\Искра\GenerateDataToSQL\bin\Debug\GenerateDataToSQL.exe.config
+C:\Users\GriS\Downloads\Искра\GenerateDataToSQL\bin\Debug\GenerateDataToSQL.exe
+C:\Users\GriS\Downloads\Искра\GenerateDataToSQL\bin\Debug\GenerateDataToSQL.pdb
+C:\Users\GriS\Downloads\Искра\GenerateDataToSQL\bin\Debug\Service.dll
+C:\Users\GriS\Downloads\Искра\GenerateDataToSQL\bin\Debug\System.Data.SQLite.dll
+C:\Users\GriS\Downloads\Искра\GenerateDataToSQL\bin\Debug\OxyPlot.dll
+C:\Users\GriS\Downloads\Искра\GenerateDataToSQL\bin\Debug\Service.pdb
+C:\Users\GriS\Downloads\Искра\GenerateDataToSQL\obj\Debug\GenerateDataToSQL.csprojResolveAssemblyReference.cache
+C:\Users\GriS\Downloads\Искра\GenerateDataToSQL\obj\Debug\GenerateDataToSQL.exe
+C:\Users\GriS\Downloads\Искра\GenerateDataToSQL\obj\Debug\GenerateDataToSQL.pdb
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\GenerateDataToSQL\bin\Debug\GenerateDataToSQL.exe.config
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\GenerateDataToSQL\bin\Debug\GenerateDataToSQL.exe
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\GenerateDataToSQL\bin\Debug\GenerateDataToSQL.pdb
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\GenerateDataToSQL\bin\Debug\Service.dll
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\GenerateDataToSQL\bin\Debug\System.Data.SQLite.dll
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\GenerateDataToSQL\bin\Debug\OxyPlot.dll
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\GenerateDataToSQL\bin\Debug\Service.pdb
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\GenerateDataToSQL\obj\Debug\GenerateDataToSQL.csprojResolveAssemblyReference.cache
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\GenerateDataToSQL\obj\Debug\GenerateDataToSQL.exe
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\GenerateDataToSQL\obj\Debug\GenerateDataToSQL.pdb

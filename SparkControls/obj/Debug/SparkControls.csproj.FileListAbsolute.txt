@@ -1,0 +1,121 @@
+C:\Users\GriS\Downloads\Искра\SparkControls\bin\Debug\SparkControls.dll
+C:\Users\GriS\Downloads\Искра\SparkControls\bin\Debug\SparkControls.pdb
+C:\Users\GriS\Downloads\Искра\SparkControls\obj\Debug\SparkControls.csprojResolveAssemblyReference.cache
+C:\Users\GriS\Downloads\Искра\SparkControls\obj\Debug\SparkControls.Properties.Resources.resources
+C:\Users\GriS\Downloads\Искра\SparkControls\obj\Debug\SparkControls.csproj.GenerateResource.Cache
+C:\Users\GriS\Downloads\Искра\SparkControls\obj\Debug\SparkControls.dll
+C:\Users\GriS\Downloads\Искра\SparkControls\obj\Debug\SparkControls.pdb
+C:\Users\GriS\documents\visual studio 2015\Projects\Искра\SparkControls\obj\Debug\SparkControls.csprojResolveAssemblyReference.cache
+C:\Users\GriS\documents\visual studio 2015\Projects\Искра\SparkControls\obj\Debug\IndiDigital.g.cs
+C:\Users\GriS\documents\visual studio 2015\Projects\Искра\SparkControls\obj\Debug\SparkControls_MarkupCompile.cache
+C:\Users\GriS\documents\visual studio 2015\Projects\Искра\SparkControls\obj\Debug\SparkControls_MarkupCompile.lref
+C:\Users\GriS\documents\visual studio 2015\Projects\Искра\SparkControls\obj\Debug\SparkControls.dll
+C:\Users\GriS\documents\visual studio 2015\Projects\Искра\SparkControls\obj\Debug\SparkControls.pdb
+C:\Users\GriS\documents\visual studio 2015\Projects\Искра\SparkControls\bin\Debug\SparkControls.dll
+C:\Users\GriS\documents\visual studio 2015\Projects\Искра\SparkControls\bin\Debug\SparkControls.pdb
+C:\Users\GriS\documents\visual studio 2015\Projects\Искра\SparkControls\bin\Debug\Service.dll
+C:\Users\GriS\documents\visual studio 2015\Projects\Искра\SparkControls\bin\Debug\Service.pdb
+C:\Users\GriS\documents\visual studio 2015\Projects\Искра\SparkControls\obj\Debug\IndiDigital.baml
+C:\Users\GriS\documents\visual studio 2015\Projects\Искра\SparkControls\obj\Debug\SparkControls.g.resources
+C:\Users\GriS\documents\visual studio 2015\Projects\Искра\SparkControls\obj\Debug\SparkControls.Properties.Resources.resources
+C:\Users\GriS\documents\visual studio 2015\Projects\Искра\SparkControls\obj\Debug\SparkControls.csproj.GenerateResource.Cache
+C:\Users\GriS\documents\visual studio 2015\Projects\Искра\SparkControls\obj\Debug\SelectIndicator.g.cs
+C:\Users\GriS\documents\visual studio 2015\Projects\Искра\SparkControls\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\GriS\documents\visual studio 2015\Projects\Искра\SparkControls\obj\Debug\SelectIndicator.baml
+C:\Users\GriS\documents\visual studio 2015\Projects\Искра\SparkControls\obj\Debug\IndiBoolean.g.cs
+C:\Users\GriS\documents\visual studio 2015\Projects\Искра\SparkControls\obj\Debug\IndiBoolean.baml
+C:\Users\GriS\documents\visual studio 2015\Projects\Искра\SparkControls\obj\Debug\IndiDigitalset.g.cs
+C:\Users\GriS\documents\visual studio 2015\Projects\Искра\SparkControls\obj\Debug\IndiDigitalset.baml
+C:\Users\GriS\Downloads\Искра\SparkControls\bin\Debug\Service.dll
+C:\Users\GriS\Downloads\Искра\SparkControls\bin\Debug\Service.pdb
+C:\Users\GriS\Downloads\Искра\SparkControls\obj\Debug\IndiBoolean.g.cs
+C:\Users\GriS\Downloads\Искра\SparkControls\obj\Debug\IndiDigital.g.cs
+C:\Users\GriS\Downloads\Искра\SparkControls\obj\Debug\IndiDigitalSet.g.cs
+C:\Users\GriS\Downloads\Искра\SparkControls\obj\Debug\SelectIndicator.g.cs
+C:\Users\GriS\Downloads\Искра\SparkControls\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\GriS\Downloads\Искра\SparkControls\obj\Debug\SparkControls_MarkupCompile.cache
+C:\Users\GriS\Downloads\Искра\SparkControls\obj\Debug\SparkControls_MarkupCompile.lref
+C:\Users\GriS\Downloads\Искра\SparkControls\obj\Debug\IndiBoolean.baml
+C:\Users\GriS\Downloads\Искра\SparkControls\obj\Debug\IndiDigital.baml
+C:\Users\GriS\Downloads\Искра\SparkControls\obj\Debug\IndiDigitalSet.baml
+C:\Users\GriS\Downloads\Искра\SparkControls\obj\Debug\SelectIndicator.baml
+C:\Users\GriS\Downloads\Искра\SparkControls\obj\Debug\SparkControls.g.resources
+C:\Users\GriS\Downloads\Искра\SparkControls\obj\Debug\IndiBooleanSet.g.cs
+C:\Users\GriS\Downloads\Искра\SparkControls\obj\Debug\IndiBooleanSet.baml
+C:\Users\GriS\Downloads\Искра\SparkControls\obj\Debug\IndiColumn.g.cs
+C:\Users\GriS\Downloads\Искра\SparkControls\obj\Debug\IndiColumnSet.g.cs
+C:\Users\GriS\Downloads\Искра\SparkControls\obj\Debug\IndiColumn.baml
+C:\Users\GriS\Downloads\Искра\SparkControls\obj\Debug\IndiColumnSet.baml
+C:\Users\GriS\Downloads\Искра\SparkControls\obj\Debug\IndiArrow.g.cs
+C:\Users\GriS\Downloads\Искра\SparkControls\obj\Debug\IndiArrowSet.g.cs
+C:\Users\GriS\Downloads\Искра\SparkControls\obj\Debug\IndiArrow.baml
+C:\Users\GriS\Downloads\Искра\SparkControls\obj\Debug\IndiArrowSet.baml
+C:\Users\GriS\Downloads\Искра\SparkControls\obj\Debug\IndiManyParam.g.cs
+C:\Users\GriS\Downloads\Искра\SparkControls\obj\Debug\IndiManyParamSet.g.cs
+C:\Users\GriS\Downloads\Искра\SparkControls\obj\Debug\IndiManyParam.baml
+C:\Users\GriS\Downloads\Искра\SparkControls\obj\Debug\IndiManyParamSet.baml
+C:\Users\GriS\Downloads\Искра\SparkControls\bin\Debug\OxyPlot.dll
+C:\Users\GriS\Downloads\Искра\SparkControls\bin\Debug\OxyPlot.Wpf.dll
+C:\Users\GriS\Downloads\Искра\SparkControls\obj\Debug\IndiGraph.g.cs
+C:\Users\GriS\Downloads\Искра\SparkControls\obj\Debug\IndiGraphSet.g.cs
+C:\Users\GriS\Downloads\Искра\SparkControls\obj\Debug\IndiGraph.baml
+C:\Users\GriS\Downloads\Искра\SparkControls\obj\Debug\IndiGraphSet.baml
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\SparkControls\bin\Debug\SparkControls.dll
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\SparkControls\bin\Debug\SparkControls.pdb
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\SparkControls\bin\Debug\OxyPlot.dll
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\SparkControls\bin\Debug\OxyPlot.Wpf.dll
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\SparkControls\bin\Debug\Service.dll
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\SparkControls\bin\Debug\Service.pdb
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\SparkControls\obj\Debug\SparkControls.csprojResolveAssemblyReference.cache
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\SparkControls\obj\Debug\IndiArrow.g.cs
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\SparkControls\obj\Debug\IndiArrowSet.g.cs
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\SparkControls\obj\Debug\IndiBoolean.g.cs
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\SparkControls\obj\Debug\IndiBooleanSet.g.cs
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\SparkControls\obj\Debug\IndiColumn.g.cs
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\SparkControls\obj\Debug\IndiColumnSet.g.cs
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\SparkControls\obj\Debug\IndiDigital.g.cs
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\SparkControls\obj\Debug\IndiDigitalSet.g.cs
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\SparkControls\obj\Debug\IndiGraph.g.cs
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\SparkControls\obj\Debug\IndiGraphSet.g.cs
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\SparkControls\obj\Debug\IndiManyParam.g.cs
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\SparkControls\obj\Debug\IndiManyParamSet.g.cs
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\SparkControls\obj\Debug\SelectIndicator.g.cs
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\SparkControls\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\SparkControls\obj\Debug\SparkControls_MarkupCompile.cache
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\SparkControls\obj\Debug\SparkControls_MarkupCompile.lref
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\SparkControls\obj\Debug\IndiArrow.baml
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\SparkControls\obj\Debug\IndiArrowSet.baml
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\SparkControls\obj\Debug\IndiBoolean.baml
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\SparkControls\obj\Debug\IndiBooleanSet.baml
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\SparkControls\obj\Debug\IndiColumn.baml
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\SparkControls\obj\Debug\IndiColumnSet.baml
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\SparkControls\obj\Debug\IndiDigital.baml
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\SparkControls\obj\Debug\IndiDigitalSet.baml
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\SparkControls\obj\Debug\IndiGraph.baml
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\SparkControls\obj\Debug\IndiGraphSet.baml
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\SparkControls\obj\Debug\IndiManyParam.baml
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\SparkControls\obj\Debug\IndiManyParamSet.baml
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\SparkControls\obj\Debug\SelectIndicator.baml
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\SparkControls\obj\Debug\SparkControls.g.resources
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\SparkControls\obj\Debug\SparkControls.Properties.Resources.resources
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\SparkControls\obj\Debug\SparkControls.csproj.GenerateResource.Cache
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\SparkControls\obj\Debug\SparkControls.dll
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\SparkControls\obj\Debug\SparkControls.pdb
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\SparkControls\obj\Debug\IndiSendStart.g.cs
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\SparkControls\obj\Debug\IndiSendStartSet.g.cs
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\SparkControls\obj\Debug\IndiSendStart.baml
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\SparkControls\obj\Debug\IndiSendStartSet.baml
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\Spark\bin\Debug\SparkControls.dll
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\Spark\bin\Debug\SparkControls.pdb
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\SparkControls\obj\Debug\IndiSendSoOn.g.cs
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\SparkControls\obj\Debug\IndiSendSoOnSet.g.cs
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\SparkControls\obj\Debug\IndiSendSoOn.baml
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\SparkControls\obj\Debug\IndiSendSoOnSet.baml
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\SparkControls\obj\Debug\IndiInputStatus.g.cs
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\SparkControls\obj\Debug\IndiInputStatusSet.g.cs
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\SparkControls\obj\Debug\IndiInputStatus.baml
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\SparkControls\obj\Debug\IndiInputStatusSet.baml
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\SparkControls\obj\Debug\CounterBarWindow.g.cs
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\SparkControls\obj\Debug\ProgressBarWindow.g.cs
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\SparkControls\obj\Debug\CounterBarWindow.baml
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\SparkControls\obj\Debug\ProgressBarWindow.baml

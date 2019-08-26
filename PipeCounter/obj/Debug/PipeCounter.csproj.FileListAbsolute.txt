@@ -1,0 +1,60 @@
+C:\Users\GriS\Downloads\Искра\Искра\Искра\PipeCounter\bin\Debug\PipeCounter.exe.config
+C:\Users\GriS\Downloads\Искра\Искра\Искра\PipeCounter\bin\Debug\PipeCounter.exe
+C:\Users\GriS\Downloads\Искра\Искра\Искра\PipeCounter\bin\Debug\PipeCounter.pdb
+C:\Users\GriS\Downloads\Искра\Искра\Искра\PipeCounter\obj\Debug\PipeCounter.csprojResolveAssemblyReference.cache
+C:\Users\GriS\Downloads\Искра\Искра\Искра\PipeCounter\obj\Debug\MainWindow.g.cs
+C:\Users\GriS\Downloads\Искра\Искра\Искра\PipeCounter\obj\Debug\App.g.cs
+C:\Users\GriS\Downloads\Искра\Искра\Искра\PipeCounter\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\GriS\Downloads\Искра\Искра\Искра\PipeCounter\obj\Debug\PipeCounter_MarkupCompile.cache
+C:\Users\GriS\Downloads\Искра\Искра\Искра\PipeCounter\obj\Debug\PipeCounter_MarkupCompile.lref
+C:\Users\GriS\Downloads\Искра\Искра\Искра\PipeCounter\obj\Debug\MainWindow.baml
+C:\Users\GriS\Downloads\Искра\Искра\Искра\PipeCounter\obj\Debug\PipeCounter.g.resources
+C:\Users\GriS\Downloads\Искра\Искра\Искра\PipeCounter\obj\Debug\PipeCounter.Properties.Resources.resources
+C:\Users\GriS\Downloads\Искра\Искра\Искра\PipeCounter\obj\Debug\PipeCounter.csproj.GenerateResource.Cache
+C:\Users\GriS\Downloads\Искра\Искра\Искра\PipeCounter\obj\Debug\PipeCounter.exe
+C:\Users\GriS\Downloads\Искра\Искра\Искра\PipeCounter\obj\Debug\PipeCounter.pdb
+C:\Users\GriS\documents\visual studio 2015\Projects\Искра\PipeCounter\bin\Debug\PipeCounter.exe.config
+C:\Users\GriS\documents\visual studio 2015\Projects\Искра\PipeCounter\bin\Debug\PipeCounter.exe
+C:\Users\GriS\documents\visual studio 2015\Projects\Искра\PipeCounter\bin\Debug\PipeCounter.pdb
+C:\Users\GriS\documents\visual studio 2015\Projects\Искра\PipeCounter\obj\Debug\PipeCounter.csprojResolveAssemblyReference.cache
+C:\Users\GriS\documents\visual studio 2015\Projects\Искра\PipeCounter\obj\Debug\MainWindow.g.cs
+C:\Users\GriS\documents\visual studio 2015\Projects\Искра\PipeCounter\obj\Debug\App.g.cs
+C:\Users\GriS\documents\visual studio 2015\Projects\Искра\PipeCounter\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\GriS\documents\visual studio 2015\Projects\Искра\PipeCounter\obj\Debug\PipeCounter_MarkupCompile.cache
+C:\Users\GriS\documents\visual studio 2015\Projects\Искра\PipeCounter\obj\Debug\PipeCounter_MarkupCompile.lref
+C:\Users\GriS\documents\visual studio 2015\Projects\Искра\PipeCounter\obj\Debug\MainWindow.baml
+C:\Users\GriS\documents\visual studio 2015\Projects\Искра\PipeCounter\obj\Debug\PipeCounter.g.resources
+C:\Users\GriS\documents\visual studio 2015\Projects\Искра\PipeCounter\obj\Debug\PipeCounter.Properties.Resources.resources
+C:\Users\GriS\documents\visual studio 2015\Projects\Искра\PipeCounter\obj\Debug\PipeCounter.csproj.GenerateResource.Cache
+C:\Users\GriS\documents\visual studio 2015\Projects\Искра\PipeCounter\obj\Debug\PipeCounter.exe
+C:\Users\GriS\documents\visual studio 2015\Projects\Искра\PipeCounter\obj\Debug\PipeCounter.pdb
+C:\Users\GriS\Downloads\Искра\PipeCounter\bin\Debug\PipeCounter.exe.config
+C:\Users\GriS\Downloads\Искра\PipeCounter\bin\Debug\PipeCounter.exe
+C:\Users\GriS\Downloads\Искра\PipeCounter\bin\Debug\PipeCounter.pdb
+C:\Users\GriS\Downloads\Искра\PipeCounter\obj\Debug\PipeCounter.csprojResolveAssemblyReference.cache
+C:\Users\GriS\Downloads\Искра\PipeCounter\obj\Debug\MainWindow.g.cs
+C:\Users\GriS\Downloads\Искра\PipeCounter\obj\Debug\App.g.cs
+C:\Users\GriS\Downloads\Искра\PipeCounter\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\GriS\Downloads\Искра\PipeCounter\obj\Debug\PipeCounter_MarkupCompile.cache
+C:\Users\GriS\Downloads\Искра\PipeCounter\obj\Debug\PipeCounter_MarkupCompile.lref
+C:\Users\GriS\Downloads\Искра\PipeCounter\obj\Debug\MainWindow.baml
+C:\Users\GriS\Downloads\Искра\PipeCounter\obj\Debug\PipeCounter.g.resources
+C:\Users\GriS\Downloads\Искра\PipeCounter\obj\Debug\PipeCounter.Properties.Resources.resources
+C:\Users\GriS\Downloads\Искра\PipeCounter\obj\Debug\PipeCounter.csproj.GenerateResource.Cache
+C:\Users\GriS\Downloads\Искра\PipeCounter\obj\Debug\PipeCounter.exe
+C:\Users\GriS\Downloads\Искра\PipeCounter\obj\Debug\PipeCounter.pdb
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\PipeCounter\bin\Debug\PipeCounter.exe.config
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\PipeCounter\bin\Debug\PipeCounter.exe
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\PipeCounter\bin\Debug\PipeCounter.pdb
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\PipeCounter\obj\Debug\PipeCounter.csprojResolveAssemblyReference.cache
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\PipeCounter\obj\Debug\MainWindow.g.cs
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\PipeCounter\obj\Debug\App.g.cs
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\PipeCounter\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\PipeCounter\obj\Debug\PipeCounter_MarkupCompile.cache
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\PipeCounter\obj\Debug\PipeCounter_MarkupCompile.lref
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\PipeCounter\obj\Debug\MainWindow.baml
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\PipeCounter\obj\Debug\PipeCounter.g.resources
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\PipeCounter\obj\Debug\PipeCounter.Properties.Resources.resources
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\PipeCounter\obj\Debug\PipeCounter.csproj.GenerateResource.Cache
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\PipeCounter\obj\Debug\PipeCounter.exe
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\PipeCounter\obj\Debug\PipeCounter.pdb

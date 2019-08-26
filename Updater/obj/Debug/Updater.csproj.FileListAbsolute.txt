@@ -1,0 +1,15 @@
+C:\Users\GriS\Downloads\Искра\Updater\bin\Debug\Updater.exe.config
+C:\Users\GriS\Downloads\Искра\Updater\bin\Debug\Updater.exe
+C:\Users\GriS\Downloads\Искра\Updater\bin\Debug\Updater.pdb
+C:\Users\GriS\Downloads\Искра\Updater\obj\Debug\Updater.csprojResolveAssemblyReference.cache
+C:\Users\GriS\Downloads\Искра\Updater\obj\Debug\Updater.exe
+C:\Users\GriS\Downloads\Искра\Updater\obj\Debug\Updater.pdb
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\Updater\bin\Debug\Updater.exe.config
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\Updater\bin\Debug\Updater.exe
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\Updater\bin\Debug\Updater.pdb
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\Updater\obj\Debug\Updater.csprojResolveAssemblyReference.cache
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\Updater\obj\Debug\Updater.exe
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\Updater\obj\Debug\Updater.pdb
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\Spark\bin\Debug\Updater.exe.config
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\Spark\bin\Debug\Updater.exe
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\Spark\bin\Debug\Updater.pdb

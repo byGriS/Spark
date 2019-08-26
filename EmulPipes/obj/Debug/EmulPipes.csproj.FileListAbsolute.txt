@@ -1,0 +1,59 @@
+C:\Users\GriS\Downloads\Искра\Искра\Искра\EmulPipes\bin\Debug\EmulPipes.exe.config
+C:\Users\GriS\Downloads\Искра\Искра\Искра\EmulPipes\bin\Debug\EmulPipes.exe
+C:\Users\GriS\Downloads\Искра\Искра\Искра\EmulPipes\bin\Debug\EmulPipes.pdb
+C:\Users\GriS\Downloads\Искра\Искра\Искра\EmulPipes\obj\Debug\EmulPipes.csprojResolveAssemblyReference.cache
+C:\Users\GriS\Downloads\Искра\Искра\Искра\EmulPipes\obj\Debug\MainWindow.g.cs
+C:\Users\GriS\Downloads\Искра\Искра\Искра\EmulPipes\obj\Debug\App.g.cs
+C:\Users\GriS\Downloads\Искра\Искра\Искра\EmulPipes\obj\Debug\EmulPipes_MarkupCompile.cache
+C:\Users\GriS\Downloads\Искра\Искра\Искра\EmulPipes\obj\Debug\EmulPipes_MarkupCompile.lref
+C:\Users\GriS\Downloads\Искра\Искра\Искра\EmulPipes\obj\Debug\MainWindow.baml
+C:\Users\GriS\Downloads\Искра\Искра\Искра\EmulPipes\obj\Debug\EmulPipes.g.resources
+C:\Users\GriS\Downloads\Искра\Искра\Искра\EmulPipes\obj\Debug\EmulPipes.Properties.Resources.resources
+C:\Users\GriS\Downloads\Искра\Искра\Искра\EmulPipes\obj\Debug\EmulPipes.csproj.GenerateResource.Cache
+C:\Users\GriS\Downloads\Искра\Искра\Искра\EmulPipes\obj\Debug\EmulPipes.exe
+C:\Users\GriS\Downloads\Искра\Искра\Искра\EmulPipes\obj\Debug\EmulPipes.pdb
+C:\Users\GriS\documents\visual studio 2015\Projects\Искра\EmulPipes\bin\Debug\EmulPipes.exe.config
+C:\Users\GriS\documents\visual studio 2015\Projects\Искра\EmulPipes\bin\Debug\EmulPipes.exe
+C:\Users\GriS\documents\visual studio 2015\Projects\Искра\EmulPipes\bin\Debug\EmulPipes.pdb
+C:\Users\GriS\documents\visual studio 2015\Projects\Искра\EmulPipes\obj\Debug\EmulPipes.csprojResolveAssemblyReference.cache
+C:\Users\GriS\documents\visual studio 2015\Projects\Искра\EmulPipes\obj\Debug\MainWindow.g.cs
+C:\Users\GriS\documents\visual studio 2015\Projects\Искра\EmulPipes\obj\Debug\App.g.cs
+C:\Users\GriS\documents\visual studio 2015\Projects\Искра\EmulPipes\obj\Debug\EmulPipes_MarkupCompile.cache
+C:\Users\GriS\documents\visual studio 2015\Projects\Искра\EmulPipes\obj\Debug\EmulPipes_MarkupCompile.lref
+C:\Users\GriS\documents\visual studio 2015\Projects\Искра\EmulPipes\obj\Debug\MainWindow.baml
+C:\Users\GriS\documents\visual studio 2015\Projects\Искра\EmulPipes\obj\Debug\EmulPipes.g.resources
+C:\Users\GriS\documents\visual studio 2015\Projects\Искра\EmulPipes\obj\Debug\EmulPipes.Properties.Resources.resources
+C:\Users\GriS\documents\visual studio 2015\Projects\Искра\EmulPipes\obj\Debug\EmulPipes.csproj.GenerateResource.Cache
+C:\Users\GriS\documents\visual studio 2015\Projects\Искра\EmulPipes\obj\Debug\EmulPipes.exe
+C:\Users\GriS\documents\visual studio 2015\Projects\Искра\EmulPipes\obj\Debug\EmulPipes.pdb
+C:\Users\GriS\Downloads\Искра\EmulPipes\bin\Debug\EmulPipes.exe.config
+C:\Users\GriS\Downloads\Искра\EmulPipes\bin\Debug\EmulPipes.exe
+C:\Users\GriS\Downloads\Искра\EmulPipes\bin\Debug\EmulPipes.pdb
+C:\Users\GriS\Downloads\Искра\EmulPipes\obj\Debug\EmulPipes.csprojResolveAssemblyReference.cache
+C:\Users\GriS\Downloads\Искра\EmulPipes\obj\Debug\MainWindow.g.cs
+C:\Users\GriS\Downloads\Искра\EmulPipes\obj\Debug\App.g.cs
+C:\Users\GriS\Downloads\Искра\EmulPipes\obj\Debug\EmulPipes_MarkupCompile.cache
+C:\Users\GriS\Downloads\Искра\EmulPipes\obj\Debug\EmulPipes_MarkupCompile.lref
+C:\Users\GriS\Downloads\Искра\EmulPipes\obj\Debug\MainWindow.baml
+C:\Users\GriS\Downloads\Искра\EmulPipes\obj\Debug\EmulPipes.g.resources
+C:\Users\GriS\Downloads\Искра\EmulPipes\obj\Debug\EmulPipes.Properties.Resources.resources
+C:\Users\GriS\Downloads\Искра\EmulPipes\obj\Debug\EmulPipes.csproj.GenerateResource.Cache
+C:\Users\GriS\Downloads\Искра\EmulPipes\obj\Debug\EmulPipes.exe
+C:\Users\GriS\Downloads\Искра\EmulPipes\obj\Debug\EmulPipes.pdb
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\EmulPipes\bin\Debug\EmulPipes.exe.config
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\EmulPipes\bin\Debug\EmulPipes.exe
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\EmulPipes\bin\Debug\EmulPipes.pdb
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\EmulPipes\obj\Debug\EmulPipes.csprojResolveAssemblyReference.cache
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\EmulPipes\obj\Debug\MainWindow.g.cs
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\EmulPipes\obj\Debug\App.g.cs
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\EmulPipes\obj\Debug\EmulPipes_MarkupCompile.cache
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\EmulPipes\obj\Debug\EmulPipes_MarkupCompile.lref
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\EmulPipes\obj\Debug\MainWindow.baml
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\EmulPipes\obj\Debug\EmulPipes.g.resources
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\EmulPipes\obj\Debug\EmulPipes.Properties.Resources.resources
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\EmulPipes\obj\Debug\EmulPipes.csproj.GenerateResource.Cache
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\EmulPipes\obj\Debug\EmulPipes.exe
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\EmulPipes\obj\Debug\EmulPipes.pdb
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\Spark\bin\Debug\EmulPipes.exe.config
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\Spark\bin\Debug\EmulPipes.exe
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\Spark\bin\Debug\EmulPipes.pdb

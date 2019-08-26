@@ -1,0 +1,166 @@
+c:\Users\GriS\Documents\Visual Studio 2015\Projects\Искра\Spark\bin\Debug\Spark.exe.config
+c:\Users\GriS\Documents\Visual Studio 2015\Projects\Искра\Spark\bin\Debug\Spark.exe
+c:\Users\GriS\Documents\Visual Studio 2015\Projects\Искра\Spark\bin\Debug\Spark.pdb
+c:\Users\GriS\Documents\Visual Studio 2015\Projects\Искра\Spark\obj\Debug\Spark.csprojResolveAssemblyReference.cache
+c:\Users\GriS\Documents\Visual Studio 2015\Projects\Искра\Spark\obj\Debug\App.g.cs
+c:\Users\GriS\Documents\Visual Studio 2015\Projects\Искра\Spark\obj\Debug\Spark_MarkupCompile.cache
+c:\Users\GriS\Documents\Visual Studio 2015\Projects\Искра\Spark\obj\Debug\Spark_MarkupCompile.lref
+c:\Users\GriS\Documents\Visual Studio 2015\Projects\Искра\Spark\obj\Debug\Spark.g.resources
+c:\Users\GriS\Documents\Visual Studio 2015\Projects\Искра\Spark\obj\Debug\Spark.Properties.Resources.resources
+c:\Users\GriS\Documents\Visual Studio 2015\Projects\Искра\Spark\obj\Debug\Spark.csproj.GenerateResource.Cache
+c:\Users\GriS\Documents\Visual Studio 2015\Projects\Искра\Spark\obj\Debug\Spark.exe
+c:\Users\GriS\Documents\Visual Studio 2015\Projects\Искра\Spark\obj\Debug\Spark.pdb
+C:\Users\GriS\documents\visual studio 2015\Projects\Искра\Spark\obj\Debug\SparkWindow.g.cs
+C:\Users\GriS\documents\visual studio 2015\Projects\Искра\Spark\obj\Debug\SparkWindow.baml
+C:\Users\GriS\documents\visual studio 2015\Projects\Искра\Spark\bin\Debug\Core.dll
+C:\Users\GriS\documents\visual studio 2015\Projects\Искра\Spark\bin\Debug\Core.pdb
+C:\Users\GriS\Downloads\Искра\Spark\bin\Debug\Spark.exe.config
+C:\Users\GriS\Downloads\Искра\Spark\obj\Debug\Spark.exe
+C:\Users\GriS\Downloads\Искра\Spark\obj\Debug\Spark.pdb
+C:\Users\GriS\Downloads\Искра\Spark\bin\Debug\Spark.exe
+C:\Users\GriS\Downloads\Искра\Spark\bin\Debug\Spark.pdb
+C:\Users\GriS\Downloads\Искра\Spark\bin\Debug\Core.dll
+C:\Users\GriS\Downloads\Искра\Spark\bin\Debug\Service.dll
+C:\Users\GriS\Downloads\Искра\Spark\bin\Debug\Core.pdb
+C:\Users\GriS\Downloads\Искра\Spark\bin\Debug\Service.pdb
+C:\Users\GriS\Downloads\Искра\Spark\obj\Debug\Spark.csprojResolveAssemblyReference.cache
+C:\Users\GriS\Downloads\Искра\Spark\obj\Debug\SparkWindow.g.cs
+C:\Users\GriS\Downloads\Искра\Spark\obj\Debug\App.g.cs
+C:\Users\GriS\Downloads\Искра\Spark\obj\Debug\Spark_MarkupCompile.cache
+C:\Users\GriS\Downloads\Искра\Spark\obj\Debug\Spark_MarkupCompile.lref
+C:\Users\GriS\Downloads\Искра\Spark\obj\Debug\SparkWindow.baml
+C:\Users\GriS\Downloads\Искра\Spark\obj\Debug\Spark.g.resources
+C:\Users\GriS\Downloads\Искра\Spark\obj\Debug\Spark.Properties.Resources.resources
+C:\Users\GriS\Downloads\Искра\Spark\obj\Debug\Spark.csproj.GenerateResource.Cache
+C:\Users\GriS\Downloads\Искра\Spark\obj\Debug\UnitSetWindow.g.cs
+C:\Users\GriS\Downloads\Искра\Spark\obj\Debug\UnitSetWindow.baml
+C:\Users\GriS\Downloads\Искра\Spark\bin\Debug\SparkControls.dll
+C:\Users\GriS\Downloads\Искра\Spark\bin\Debug\SparkControls.pdb
+C:\Users\GriS\Downloads\Искра\Spark\obj\Debug\InputSettingWindow.g.cs
+C:\Users\GriS\Downloads\Искра\Spark\obj\Debug\InputSettingWindow.baml
+C:\Users\GriS\Downloads\Искра\Spark\obj\Debug\SerialSettingControl.g.cs
+C:\Users\GriS\Downloads\Искра\Spark\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\GriS\Downloads\Искра\Spark\obj\Debug\SerialSettingControl.baml
+C:\Users\GriS\Downloads\Искра\Spark\obj\Debug\EthernetSettingControl.g.cs
+C:\Users\GriS\Downloads\Искра\Spark\obj\Debug\EthernetSettingControl.baml
+C:\Users\GriS\Downloads\Искра\Spark\obj\Debug\ParamsModbusInput.g.cs
+C:\Users\GriS\Downloads\Искра\Spark\obj\Debug\ParamsModbusInput.baml
+C:\Users\GriS\documents\visual studio 2015\Projects\Искра\Spark\bin\Debug\Service.dll
+C:\Users\GriS\documents\visual studio 2015\Projects\Искра\Spark\bin\Debug\SparkControls.dll
+C:\Users\GriS\documents\visual studio 2015\Projects\Искра\Spark\bin\Debug\Service.pdb
+C:\Users\GriS\documents\visual studio 2015\Projects\Искра\Spark\bin\Debug\SparkControls.pdb
+C:\Users\GriS\documents\visual studio 2015\Projects\Искра\Spark\obj\Debug\EthernetSettingControl.g.cs
+C:\Users\GriS\documents\visual studio 2015\Projects\Искра\Spark\obj\Debug\InputSettingWindow.g.cs
+C:\Users\GriS\documents\visual studio 2015\Projects\Искра\Spark\obj\Debug\ParamsModbusInput.g.cs
+C:\Users\GriS\documents\visual studio 2015\Projects\Искра\Spark\obj\Debug\ParamsText.g.cs
+C:\Users\GriS\documents\visual studio 2015\Projects\Искра\Spark\obj\Debug\SerialSettingControl.g.cs
+C:\Users\GriS\documents\visual studio 2015\Projects\Искра\Spark\obj\Debug\UnitSetWindow.g.cs
+C:\Users\GriS\documents\visual studio 2015\Projects\Искра\Spark\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\GriS\documents\visual studio 2015\Projects\Искра\Spark\obj\Debug\EthernetSettingControl.baml
+C:\Users\GriS\documents\visual studio 2015\Projects\Искра\Spark\obj\Debug\InputSettingWindow.baml
+C:\Users\GriS\documents\visual studio 2015\Projects\Искра\Spark\obj\Debug\ParamsModbusInput.baml
+C:\Users\GriS\documents\visual studio 2015\Projects\Искра\Spark\obj\Debug\ParamsText.baml
+C:\Users\GriS\documents\visual studio 2015\Projects\Искра\Spark\obj\Debug\SerialSettingControl.baml
+C:\Users\GriS\documents\visual studio 2015\Projects\Искра\Spark\obj\Debug\UnitSetWindow.baml
+C:\Users\GriS\Downloads\Искра\Spark\bin\Debug\Newtonsoft.Json.dll
+C:\Users\GriS\Downloads\Искра\Spark\bin\Debug\Newtonsoft.Json.xml
+C:\Users\GriS\documents\visual studio 2015\Projects\Искра\Spark\bin\Debug\Newtonsoft.Json.dll
+C:\Users\GriS\documents\visual studio 2015\Projects\Искра\Spark\bin\Debug\Newtonsoft.Json.xml
+C:\Users\GriS\Downloads\Искра\Spark\obj\Debug\CommonDataWindow.g.cs
+C:\Users\GriS\Downloads\Искра\Spark\obj\Debug\CommonDataWindow.baml
+C:\Users\GriS\Downloads\Искра\Spark\obj\Debug\SettingGraphsWindow.g.cs
+C:\Users\GriS\Downloads\Искра\Spark\obj\Debug\SettingGraphsWindow.baml
+C:\Users\GriS\Downloads\Искра\Spark\obj\Debug\ParamsTextInput.g.cs
+C:\Users\GriS\Downloads\Искра\Spark\obj\Debug\ParamsTextInput.baml
+C:\Users\GriS\Downloads\Искра\Spark\obj\Debug\OutputSettingWindow.g.cs
+C:\Users\GriS\Downloads\Искра\Spark\obj\Debug\OutputSettingWindow.baml
+C:\Users\GriS\Downloads\Искра\Spark\obj\Debug\ParamsModbusOutput.g.cs
+C:\Users\GriS\Downloads\Искра\Spark\obj\Debug\ParamsTextOutput.g.cs
+C:\Users\GriS\Downloads\Искра\Spark\obj\Debug\ParamsModbusOutput.baml
+C:\Users\GriS\Downloads\Искра\Spark\obj\Debug\ParamsTextOutput.baml
+C:\Users\GriS\Downloads\Искра\Spark\obj\Debug\SelectDataParamOutput.g.cs
+C:\Users\GriS\Downloads\Искра\Spark\obj\Debug\SelectDataParamOutput.baml
+C:\Users\GriS\Downloads\Искра\Spark\obj\Debug\LicenseTimer.g.cs
+C:\Users\GriS\Downloads\Искра\Spark\obj\Debug\LicenseTimer.baml
+C:\Users\GriS\Downloads\Искра\Spark\obj\Debug\LicenseInfo.g.cs
+C:\Users\GriS\Downloads\Искра\Spark\obj\Debug\LicenseInfo.baml
+C:\Users\GriS\Downloads\Искра\Spark\obj\Debug\ChangeUserWindow.g.cs
+C:\Users\GriS\Downloads\Искра\Spark\obj\Debug\ChangeUserWindow.baml
+C:\Users\GriS\Downloads\Искра\Spark\obj\Debug\SettingCommonWindow.g.cs
+C:\Users\GriS\Downloads\Искра\Spark\obj\Debug\SettingCommonWindow.baml
+C:\Users\GriS\Downloads\Искра\Spark\obj\Debug\ArchiveWindow.g.cs
+C:\Users\GriS\Downloads\Искра\Spark\obj\Debug\ArchiveWindow.baml
+C:\Users\GriS\Downloads\Искра\Spark\bin\Debug\System.Data.SQLite.dll
+C:\Users\GriS\Downloads\Искра\Spark\bin\Debug\Xceed.Wpf.Toolkit.dll
+C:\Users\GriS\Downloads\Искра\Spark\obj\Debug\ArchiveExporterWindow.g.cs
+C:\Users\GriS\Downloads\Искра\Spark\obj\Debug\ArchiveExporterWindow.baml
+C:\Users\GriS\Downloads\Искра\Spark\obj\Debug\PipeCounterSetWindow.g.cs
+C:\Users\GriS\Downloads\Искра\Spark\obj\Debug\PipeCounterSetWindow.baml
+C:\Users\GriS\Downloads\Искра\Spark\obj\Debug\PipeCounterCorrectWindow.g.cs
+C:\Users\GriS\Downloads\Искра\Spark\obj\Debug\PipeCounterCorrectWindow.baml
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\Spark\bin\Debug\Spark.exe.config
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\Spark\obj\Debug\Spark.exe
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\Spark\obj\Debug\Spark.pdb
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\Spark\bin\Debug\Spark.exe
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\Spark\bin\Debug\Spark.pdb
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\Spark\bin\Debug\Core.dll
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\Spark\bin\Debug\Service.dll
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\Spark\bin\Debug\System.Data.SQLite.dll
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\Spark\bin\Debug\Xceed.Wpf.Toolkit.dll
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\Spark\bin\Debug\Newtonsoft.Json.dll
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\Spark\bin\Debug\Core.pdb
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\Spark\bin\Debug\Service.pdb
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\Spark\bin\Debug\Newtonsoft.Json.xml
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\Spark\obj\Debug\Spark.csprojResolveAssemblyReference.cache
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\Spark\obj\Debug\ArchiveExporterWindow.g.cs
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\Spark\obj\Debug\ArchiveWindow.g.cs
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\Spark\obj\Debug\ChangeUserWindow.g.cs
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\Spark\obj\Debug\CommonDataWindow.g.cs
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\Spark\obj\Debug\EthernetSettingControl.g.cs
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\Spark\obj\Debug\InputSettingWindow.g.cs
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\Spark\obj\Debug\LicenseInfo.g.cs
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\Spark\obj\Debug\LicenseTimer.g.cs
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\Spark\obj\Debug\OutputSettingWindow.g.cs
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\Spark\obj\Debug\ParamsModbusInput.g.cs
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\Spark\obj\Debug\ParamsModbusOutput.g.cs
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\Spark\obj\Debug\ParamsTextInput.g.cs
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\Spark\obj\Debug\ParamsTextOutput.g.cs
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\Spark\obj\Debug\PipeCounterCorrectWindow.g.cs
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\Spark\obj\Debug\PipeCounterSetWindow.g.cs
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\Spark\obj\Debug\SelectDataParamOutput.g.cs
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\Spark\obj\Debug\SerialSettingControl.g.cs
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\Spark\obj\Debug\SettingCommonWindow.g.cs
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\Spark\obj\Debug\SettingGraphsWindow.g.cs
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\Spark\obj\Debug\SparkWindow.g.cs
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\Spark\obj\Debug\UnitSetWindow.g.cs
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\Spark\obj\Debug\App.g.cs
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\Spark\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\Spark\obj\Debug\Spark_MarkupCompile.cache
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\Spark\obj\Debug\Spark_MarkupCompile.lref
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\Spark\obj\Debug\ArchiveExporterWindow.baml
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\Spark\obj\Debug\ArchiveWindow.baml
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\Spark\obj\Debug\ChangeUserWindow.baml
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\Spark\obj\Debug\CommonDataWindow.baml
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\Spark\obj\Debug\EthernetSettingControl.baml
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\Spark\obj\Debug\InputSettingWindow.baml
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\Spark\obj\Debug\LicenseInfo.baml
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\Spark\obj\Debug\LicenseTimer.baml
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\Spark\obj\Debug\OutputSettingWindow.baml
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\Spark\obj\Debug\ParamsModbusInput.baml
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\Spark\obj\Debug\ParamsModbusOutput.baml
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\Spark\obj\Debug\ParamsTextInput.baml
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\Spark\obj\Debug\ParamsTextOutput.baml
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\Spark\obj\Debug\PipeCounterCorrectWindow.baml
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\Spark\obj\Debug\PipeCounterSetWindow.baml
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\Spark\obj\Debug\SelectDataParamOutput.baml
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\Spark\obj\Debug\SerialSettingControl.baml
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\Spark\obj\Debug\SettingCommonWindow.baml
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\Spark\obj\Debug\SettingGraphsWindow.baml
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\Spark\obj\Debug\SparkWindow.baml
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\Spark\obj\Debug\UnitSetWindow.baml
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\Spark\obj\Debug\Spark.g.resources
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\Spark\obj\Debug\Spark.Properties.Resources.resources
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\Spark\obj\Debug\Spark.csproj.GenerateResource.Cache
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\Spark\bin\Debug\SparkControls.pdb
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\Spark\obj\Debug\ArchiveExportToServerWindow.g.cs
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\Spark\obj\Debug\ArchiveExportToServerWindow.baml

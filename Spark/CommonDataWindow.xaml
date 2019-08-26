@@ -1,0 +1,47 @@
+﻿<Window x:Class="Spark.CommonDataWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Spark"
+        mc:Ignorable="d"
+        Title="Общие данные" 
+        WindowStartupLocation="CenterScreen" 
+        ShowInTaskbar="False"
+        Height="550" 
+        Width="300" 
+        ResizeMode="NoResize"
+        Loaded="Window_Loaded">
+  <Grid>
+    <Grid.RowDefinitions>
+      <RowDefinition/>
+      <RowDefinition Height="32" />
+    </Grid.RowDefinitions>
+    <ScrollViewer>
+    <StackPanel Margin="5" Height="450" VerticalAlignment="Top">
+      <Label Content="Название бригады"/>
+      <TextBox x:Name="textBox" Padding="2" />
+      <Label Content="(данное название будет использоваться для" Padding="5 5 5 0"/>
+      <Label Content="названия базы данных)" Padding="5 0 5 20"/>
+      <Label Content="Месторождение"/>
+      <TextBox x:Name="tbField" Padding="2" />
+      <Label Content="Куст"/>
+      <TextBox x:Name="tbBush" Padding="2" />
+      <Label Content="Скважина"/>
+      <TextBox x:Name="tbWell" Padding="2" />
+      <Label Content="НКТ, мм"/>
+      <TextBox x:Name="tbNKTmm" Padding="2" />
+      <Label Content="План глубины, м"/>
+      <TextBox x:Name="tbLengthPlan" Padding="2" />
+      <Label Content="Максимальная скорость спуска, м/c"/>
+      <TextBox x:Name="tbSpeedPlan" Padding="2" />
+      <Label Content="Сред. уровень жидкости в скв., м"/>
+      <TextBox x:Name="tbWaterPlan" Padding="2" />
+    </StackPanel>
+    </ScrollViewer>
+    <StackPanel  Grid.Row="2" Background="Gray" Orientation="Horizontal" FlowDirection="RightToLeft">
+      <Button Content="Ок" Padding="3" Click="Ok_Click" Margin="3" Width="75"/>
+      <Button Content="Отменить" Padding="3" Click="Cancel_Click" Margin="3" Width="75"/>
+    </StackPanel>
+  </Grid>
+</Window>

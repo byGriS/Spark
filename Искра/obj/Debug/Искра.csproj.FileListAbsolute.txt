@@ -1,0 +1,70 @@
+c:\users\gris\documents\visual studio 2015\Projects\Искра\Искра\bin\Debug\Искра.exe.config
+c:\users\gris\documents\visual studio 2015\Projects\Искра\Искра\bin\Debug\Искра.exe
+c:\users\gris\documents\visual studio 2015\Projects\Искра\Искра\bin\Debug\Искра.pdb
+c:\users\gris\documents\visual studio 2015\Projects\Искра\Искра\obj\Debug\Искра.csprojResolveAssemblyReference.cache
+c:\users\gris\documents\visual studio 2015\Projects\Искра\Искра\obj\Debug\MainWindow.g.cs
+c:\users\gris\documents\visual studio 2015\Projects\Искра\Искра\obj\Debug\App.g.cs
+c:\users\gris\documents\visual studio 2015\Projects\Искра\Искра\obj\Debug\Искра_MarkupCompile.cache
+c:\users\gris\documents\visual studio 2015\Projects\Искра\Искра\obj\Debug\Искра_MarkupCompile.lref
+c:\users\gris\documents\visual studio 2015\Projects\Искра\Искра\obj\Debug\MainWindow.baml
+c:\users\gris\documents\visual studio 2015\Projects\Искра\Искра\obj\Debug\Искра.g.resources
+c:\users\gris\documents\visual studio 2015\Projects\Искра\Искра\obj\Debug\Искра.Properties.Resources.resources
+c:\users\gris\documents\visual studio 2015\Projects\Искра\Искра\obj\Debug\Искра.csproj.GenerateResource.Cache
+c:\users\gris\documents\visual studio 2015\Projects\Искра\Искра\obj\Debug\Искра.exe
+c:\users\gris\documents\visual studio 2015\Projects\Искра\Искра\obj\Debug\Искра.pdb
+C:\Users\GriS\Downloads\Искра\Искра\bin\Debug\Искра.exe.config
+C:\Users\GriS\Downloads\Искра\Искра\bin\Debug\Искра.exe
+C:\Users\GriS\Downloads\Искра\Искра\bin\Debug\Искра.pdb
+C:\Users\GriS\Downloads\Искра\Искра\obj\Debug\Искра.csprojResolveAssemblyReference.cache
+C:\Users\GriS\Downloads\Искра\Искра\obj\Debug\MainWindow.g.cs
+C:\Users\GriS\Downloads\Искра\Искра\obj\Debug\App.g.cs
+C:\Users\GriS\Downloads\Искра\Искра\obj\Debug\Искра_MarkupCompile.cache
+C:\Users\GriS\Downloads\Искра\Искра\obj\Debug\Искра_MarkupCompile.lref
+C:\Users\GriS\Downloads\Искра\Искра\obj\Debug\MainWindow.baml
+C:\Users\GriS\Downloads\Искра\Искра\obj\Debug\Искра.g.resources
+C:\Users\GriS\Downloads\Искра\Искра\obj\Debug\Искра.Properties.Resources.resources
+C:\Users\GriS\Downloads\Искра\Искра\obj\Debug\Искра.csproj.GenerateResource.Cache
+C:\Users\GriS\Downloads\Искра\Искра\obj\Debug\Искра.exe
+C:\Users\GriS\Downloads\Искра\Искра\obj\Debug\Искра.pdb
+C:\Users\GriS\Downloads\Искра\Искра\bin\Debug\Service.dll
+C:\Users\GriS\Downloads\Искра\Искра\bin\Debug\Service.pdb
+C:\Users\GriS\documents\visual studio 2015\Projects\Искра\Искра\bin\Debug\Service.dll
+C:\Users\GriS\documents\visual studio 2015\Projects\Искра\Искра\bin\Debug\Service.pdb
+C:\Users\GriS\Downloads\Искра\Искра\bin\Debug\Core.dll
+C:\Users\GriS\Downloads\Искра\Искра\bin\Debug\SparkControls.dll
+C:\Users\GriS\Downloads\Искра\Искра\bin\Debug\Core.pdb
+C:\Users\GriS\Downloads\Искра\Искра\bin\Debug\SparkControls.pdb
+C:\Users\GriS\Downloads\Искра\Искра\bin\Debug\Newtonsoft.Json.dll
+C:\Users\GriS\Downloads\Искра\Искра\bin\Debug\Newtonsoft.Json.xml
+C:\Users\GriS\documents\visual studio 2015\Projects\Искра\Искра\bin\Debug\Core.dll
+C:\Users\GriS\documents\visual studio 2015\Projects\Искра\Искра\bin\Debug\SparkControls.dll
+C:\Users\GriS\documents\visual studio 2015\Projects\Искра\Искра\bin\Debug\Newtonsoft.Json.dll
+C:\Users\GriS\documents\visual studio 2015\Projects\Искра\Искра\bin\Debug\Core.pdb
+C:\Users\GriS\documents\visual studio 2015\Projects\Искра\Искра\bin\Debug\SparkControls.pdb
+C:\Users\GriS\documents\visual studio 2015\Projects\Искра\Искра\bin\Debug\Newtonsoft.Json.xml
+C:\Users\GriS\Downloads\Искра\Искра\bin\Debug\OxyPlot.Wpf.dll
+C:\Users\GriS\Downloads\Искра\Искра\bin\Debug\OxyPlot.dll
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\Искра\bin\Debug\Искра.exe.config
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\Искра\bin\Debug\Искра.exe
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\Искра\bin\Debug\Искра.pdb
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\Искра\bin\Debug\Core.dll
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\Искра\bin\Debug\Service.dll
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\Искра\bin\Debug\SparkControls.dll
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\Искра\bin\Debug\OxyPlot.dll
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\Искра\bin\Debug\Newtonsoft.Json.dll
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\Искра\bin\Debug\OxyPlot.Wpf.dll
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\Искра\bin\Debug\Core.pdb
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\Искра\bin\Debug\Service.pdb
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\Искра\bin\Debug\SparkControls.pdb
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\Искра\bin\Debug\Newtonsoft.Json.xml
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\Искра\obj\Debug\Искра.csprojResolveAssemblyReference.cache
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\Искра\obj\Debug\MainWindow.g.cs
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\Искра\obj\Debug\App.g.cs
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\Искра\obj\Debug\Искра_MarkupCompile.cache
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\Искра\obj\Debug\Искра_MarkupCompile.lref
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\Искра\obj\Debug\MainWindow.baml
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\Искра\obj\Debug\Искра.g.resources
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\Искра\obj\Debug\Искра.Properties.Resources.resources
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\Искра\obj\Debug\Искра.csproj.GenerateResource.Cache
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\Искра\obj\Debug\Искра.exe
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\Искра\obj\Debug\Искра.pdb

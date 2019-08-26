@@ -1,0 +1,126 @@
+﻿<Window x:Class="Spark.SparkWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Spark"
+        mc:Ignorable="d"
+        Title="Искра" 
+        Height="600" 
+        Width="800" 
+        WindowStartupLocation="CenterScreen"
+        Loaded="Window_Loaded"
+        WindowState="Minimized"
+        Closing="Window_Closing"
+        MouseDown="Window_MouseDown"
+        MouseMove="Window_MouseMove"
+        MouseUp="Window_MouseUp"
+        SizeChanged="Window_SizeChanged">
+  <Window.Resources>
+    <ImageBrush 
+            x:Key ="MyImageBrush" 
+            ImageSource ="pack://application:,,,/Spark;component/resources/top.jpg" 
+            />
+  </Window.Resources>
+  <Grid>
+    <Grid.RowDefinitions>
+      <RowDefinition Height="26"></RowDefinition>
+      <RowDefinition Height="26"></RowDefinition>
+      <RowDefinition Height="1*"></RowDefinition>
+    </Grid.RowDefinitions>
+    <Border BorderThickness="0 0 0 0" BorderBrush="Black">
+      <Grid>
+        <DockPanel Grid.ColumnSpan="2">
+          <Menu HorizontalAlignment="Left" Background="{x:Null}">
+            <MenuItem Header="Главная" Height="24">
+              <MenuItem x:Name="menuNew" Header="Новый" Click="New_Click"/>
+              <MenuItem x:Name="menuSave" Header="Сохранить" Click="Save_Click"/>
+              <MenuItem x:Name="menuLoad" Header="Загрузить" Click="Load_Click"/>
+              <Separator/>
+              <MenuItem Header="Выход" Click="Close_Click"/>
+            </MenuItem>
+            <MenuItem x:Name="menuData" Header="Данные">
+              <MenuItem x:Name="menuCommonData" Header="Общие данные" Click="CommonSetting_Click"/>
+              <MenuItem x:Name="menuInputSetting" Header="Входные настройки" Click="InputSetting_Click"/>
+              <MenuItem x:Name="menuOutputSetting" Header="Выходные настройки" Click="OutputSetting_Click"/>
+              <MenuItem x:Name="menuCounterPipe" Header="Счетчик труб" Click="menuCounterPipe_Click"/>
+            </MenuItem>
+            <MenuItem x:Name="menuWindows" Header="Окна">
+              <MenuItem Header="Добавить окно" Click="WindowAdd_Click"/>
+              <MenuItem x:Name="windowDelete" Header="Удалить окно" IsEnabled="False" Click="windowDelete_Click"/>
+              <MenuItem x:Name="elementAdd" Header="Добавить элемент" IsEnabled="False" Click="elementAdd_Click"/>
+            </MenuItem>
+            <MenuItem x:Name="menuWork" Header="Работа">
+              <MenuItem x:Name="inputStartBtn" Header="Запуск входов" Click="InputStart_Click"/>
+              <MenuItem x:Name="outputStartBtn" Header="Запуск выходов" Click="OutputStart_Click"/>
+              <Separator/>
+              <MenuItem x:Name="reportNKTStartBtn" Header="Отчет мер НКТ" Click="ReportNKTStartBtn_Click"/>
+            </MenuItem>
+            <MenuItem Header="Архив" Click="Archive_Click"/>
+            <MenuItem Header="Настройки">
+              <MenuItem x:Name="menuCommonSetting" Header="Общие настройки" Click="GenSetting_Click"/>
+              <MenuItem x:Name="menuSettingGraph" Header="Настройки графиков" Click="GraphSetting_Click"/>
+              <MenuItem x:Name="menuUnits" Header="Ед. изм." Click="UnitSetting_Click"/>
+              <MenuItem x:Name="menuPipeCounterSet" Header="Настройка счетчика труб" Click="PipeCounterSet_Click"/>
+              <Separator/>
+              <!--<MenuItem Header="Счетчик труб" Click="PipeCounter_Click"/>-->
+              <MenuItem Header="Эмулятор труб" Click="PipeEmul_Click"/>
+            </MenuItem>
+            <MenuItem Header="Права доступа" Click="Admin_Click"/>
+            <MenuItem Header="Справка">
+              <MenuItem Header="Лицензия" Click="License_Click"/>
+              <MenuItem Header="Проверить обновления" Click="Update_Click"/>
+            </MenuItem>
+          </Menu>
+        </DockPanel>
+      </Grid>
+    </Border>
+    <Grid Grid.Row="1" Background="{StaticResource MyImageBrush}">
+      <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="300"/>
+        <ColumnDefinition/>
+      </Grid.ColumnDefinitions>
+      <Label Grid.Column="0" Content="{Binding Path=Title}" FontWeight="Bold" HorizontalContentAlignment="Center"/>
+      <StackPanel Grid.Column="1" 
+                        Orientation="Horizontal" 
+                        HorizontalAlignment="Right"
+                        Margin="10 0">
+        <CheckBox Content="Отправлять данные" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="10 0"
+                  IsChecked="{Binding Path=IsSendToServer, Mode=TwoWay}"/>
+        <Label Content="Веб-севрер" HorizontalAlignment="Right"/>
+        <Canvas Grid.Column="1" x:Name="webWork" Width="26" Margin="2"/>
+        <Label Content="Вход" HorizontalAlignment="Right"/>
+        <Canvas Grid.Column="1" x:Name="inputWork" Width="26" Margin="2"/>
+        <Label Content="Выход" HorizontalAlignment="Right"/>
+        <Canvas Grid.Column="1" x:Name="outputWork" Width="26" Margin="2"/>
+      </StackPanel>
+    </Grid>
+    <TabControl Grid.Row="2" x:Name="tabWindows"
+                    SelectionChanged="tabWindows_SelectionChanged">
+      <TabControl.Resources>
+        <Style TargetType="{x:Type Grid}">
+          <Setter Property="Background" Value="DarkGray"/>
+        </Style>
+        <Style TargetType="{x:Type TabItem}">
+          <Setter Property="FontSize" Value="12"/>
+          <Setter Property="FontWeight" Value="Bold"/>
+          <Setter Property="Background" Value="Gray"/>
+        </Style>
+      </TabControl.Resources>
+      <TabControl.Background>
+        <ImageBrush ImageSource="Resources/Back.jpg"/>
+      </TabControl.Background>
+    </TabControl>
+    <Canvas x:Name="windowShow" Grid.Row="2"/>
+    <Canvas Grid.Row="1">
+      <Label 
+            Canvas.Top="50"
+            Canvas.Right="10"
+            x:Name="lTime" 
+            Padding="0"
+            FontWeight="Bold"
+            FontSize="28"
+            Content="00:00:00"/>
+    </Canvas>
+  </Grid>
+</Window>

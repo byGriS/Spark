@@ -1,0 +1,16 @@
+C:\Users\GriS\Downloads\Искра\CreatorUSBKey\obj\Debug\CreatorUSBKey.csprojResolveAssemblyReference.cache
+C:\Users\GriS\Downloads\Искра\CreatorUSBKey\obj\Debug\CreatorUSBKey.Properties.Resources.resources
+C:\Users\GriS\Downloads\Искра\CreatorUSBKey\obj\Debug\CreatorUSBKey.csproj.GenerateResource.Cache
+C:\Users\GriS\Downloads\Искра\CreatorUSBKey\bin\Debug\CreatorUSBKey.exe.config
+C:\Users\GriS\Downloads\Искра\CreatorUSBKey\bin\Debug\CreatorUSBKey.exe
+C:\Users\GriS\Downloads\Искра\CreatorUSBKey\bin\Debug\CreatorUSBKey.pdb
+C:\Users\GriS\Downloads\Искра\CreatorUSBKey\obj\Debug\CreatorUSBKey.exe
+C:\Users\GriS\Downloads\Искра\CreatorUSBKey\obj\Debug\CreatorUSBKey.pdb
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\CreatorUSBKey\bin\Debug\CreatorUSBKey.exe.config
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\CreatorUSBKey\bin\Debug\CreatorUSBKey.exe
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\CreatorUSBKey\bin\Debug\CreatorUSBKey.pdb
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\CreatorUSBKey\obj\Debug\CreatorUSBKey.csprojResolveAssemblyReference.cache
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\CreatorUSBKey\obj\Debug\CreatorUSBKey.Properties.Resources.resources
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\CreatorUSBKey\obj\Debug\CreatorUSBKey.csproj.GenerateResource.Cache
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\CreatorUSBKey\obj\Debug\CreatorUSBKey.exe
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\CreatorUSBKey\obj\Debug\CreatorUSBKey.pdb

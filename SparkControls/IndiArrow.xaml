@@ -1,0 +1,64 @@
+﻿<UserControl x:Class="SparkControls.IndiArrow"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:SparkControls"
+             mc:Ignorable="d" 
+              d:DesignHeight="150" d:DesignWidth="150"
+             Background="#FFDADADA"
+             BorderBrush="Black" 
+             BorderThickness="2"             
+             Loaded="UserControl_Loaded"
+             SizeChanged="UserControl_SizeChanged">
+    <Grid>
+        <Grid.Resources>
+            <Style TargetType="{x:Type Grid}">
+                <Setter Property="Background" Value="#FFDADADA"/>
+            </Style>
+        </Grid.Resources>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="1*"/>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="5*"/>
+                <ColumnDefinition Width="2*"/>
+            </Grid.ColumnDefinitions>
+            <Viewbox>
+                <Label Content='{Binding Path=Title, FallbackValue="Параметр", Mode=TwoWay}' FontWeight="Bold" Foreground="#FF101010" Padding="2"/>
+            </Viewbox>
+            <Viewbox  Grid.Column="1">
+                <Label Content='{Binding Path=ParamUnit.Title, FallbackValue="(ед)"}' Foreground="#FF101010" Padding="2"/>
+            </Viewbox>
+            
+        </Grid>
+        <Grid Grid.Row="1" Margin="10 0">
+            <Canvas x:Name="canvas"/>
+        </Grid>
+        <Grid Grid.Row="2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="3*"/>
+                <ColumnDefinition Width="1*"/>
+            </Grid.ColumnDefinitions>
+            <Viewbox Grid.Column="0">
+                <Label x:Name="lScaleMin" Content="0"/>
+            </Viewbox>
+            <Viewbox 
+                    Grid.Column="1">
+                <Label
+                    x:Name="lValue"
+                    Content="0,0"
+                    FontWeight="Bold"
+                    Foreground="#FF101010"
+                    Padding="1"/>
+            </Viewbox>
+            <Viewbox Grid.Column="2">
+                <Label x:Name="lScaleMax" Content="100" />
+            </Viewbox>
+        </Grid>
+    </Grid>
+</UserControl>
