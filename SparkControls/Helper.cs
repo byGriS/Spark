@@ -1,4 +1,5 @@
-﻿using System.Windows.Media;
+﻿using System.Windows;
+using System.Windows.Media;
 
 namespace SparkControls {
   public class Helper {
@@ -12,6 +13,8 @@ namespace SparkControls {
     public static Color MaxColor { get { return maxColor; } set { maxColor = value; } }
 
     public static Color Text { get { return Color.FromRgb(16, 16, 16); } }
+    //(Style)FindResource("FormLabelStyle");
+    //public static Color Text { get { return (Style)FindResource("LabelStyle")} }
     public static Color Column { get { return Color.FromRgb(10, 78, 129); } }
 
     public static SolidColorBrush[] ListColor = new SolidColorBrush[] {

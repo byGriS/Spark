@@ -211,6 +211,10 @@ namespace Core {
     public delegate void UpdateInputData(string inputTitle);
     public static event UpdateInputData OnUpdateInputData;
 
+    //private static string host = "http://spark.loc/api/";
+    //private static string host = "http://fh7929y8.bget.ru/spark/api/";
+    private static string host = "http://infoneav.beget.tech/api/";
+
 
     public static void UpdateValues(Service.PairDataParam[] values) {
       if (dataParam == null)
@@ -282,8 +286,8 @@ namespace Core {
         return;
       }
 
-      //string url = "http://192.168.1.2/api/setwork.php";
-      string url = "http://fh7929y8.bget.ru/spark/api/setwork.php";
+      string url = host + "setwork.php";
+      
 
       WorkSpark ws = new WorkSpark();
       if (_setting == null) return;
@@ -298,6 +302,10 @@ namespace Core {
       ws.waterplan = _setting.WaterPlan.ToString();
       ws.startwork = DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss");
       ws.endwork = DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss");
+      ObservableCollection<DataParam> allParams = _setting.GetListInputParams();
+      foreach(DataParam dp in allParams) {
+        ws.listParams.Add(dp.Title);
+      }
       string data = JsonConvert.SerializeObject(ws, Formatting.Indented);
 
       HttpWebRequest request = (HttpWebRequest)HttpWebRequest.Create(url);  //make request         
@@ -326,8 +334,7 @@ namespace Core {
         OnChangedStateWeb?.Invoke("Сервер ожидает", 2);
         return;
       }
-      //string url = "http://192.168.1.2/api/setvalue.php";
-      string url = "http://fh7929y8.bget.ru/spark/api/setvalue.php";
+      string url = host + "setvalue.php";
       HttpWebRequest request = (HttpWebRequest)HttpWebRequest.Create(url);  //make request         
       request.ContentType = "application/json";
       request.Method = "POST";
@@ -356,8 +363,7 @@ namespace Core {
     }
 
     public static bool CheckWebServer() {
-      //string url = "http://192.168.1.2/api/test.php";
-      string url = "http://fh7929y8.bget.ru/spark/api/test.php";
+      string url = host + "test.php";
       HttpWebRequest request = (HttpWebRequest)HttpWebRequest.Create(url);  //make request         
       request.Timeout = 2800;
       request.UserAgent = "Mozilla/4.0 (compatible; MSIE 5.01; Windows NT 5.0)";

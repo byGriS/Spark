@@ -10,13 +10,8 @@
              BorderBrush="Black" 
              BorderThickness="2"
              MouseDoubleClick="UserControl_MouseDoubleClick">
-    <Grid>
-        <Grid.Resources>
-            <Style TargetType="{x:Type Grid}">
-                <Setter Property="Background" Value="#FFDADADA"/>
-            </Style>
-        </Grid.Resources>
-        <Grid.RowDefinitions>
+  <Grid Style="{DynamicResource IndiBack}">
+    <Grid.RowDefinitions>
             <RowDefinition Height="1*"/>
             <RowDefinition Height="3*"/>
         </Grid.RowDefinitions>
@@ -26,19 +21,22 @@
                 <ColumnDefinition Width="2*"/>
             </Grid.ColumnDefinitions>
             <Viewbox>
-                <Label Content='{Binding Path=Title, FallbackValue="Параметр", Mode=TwoWay}' FontWeight="Bold" Foreground="#FF101010" Padding="2"/>
+        <Label Content='{Binding Path=Title, FallbackValue="Параметр", Mode=TwoWay}' 
+               FontWeight="Bold" 
+               Style="{DynamicResource LabelStyle}" 
+               Padding="2"/>
             </Viewbox>
             <Viewbox  Grid.Column="1">
-                <Label Content='{Binding Path=ParamUnit.Title, FallbackValue="(ед)"}' Foreground="#FF101010" Padding="2"/>
+        <Label Content='{Binding Path=ParamUnit.Title, FallbackValue="(ед)"}' Style="{DynamicResource LabelStyle}" Padding="2"/>
             </Viewbox>
         </Grid>
         <Grid Grid.Row="1">
             <Viewbox>
                 <Label
+                  Style="{DynamicResource LabelStyle}"
                     x:Name="lValue"
                     Content="0,0"
                     FontWeight="Bold"
-                    Foreground="#FF101010"
                     Padding="1"/>
             </Viewbox>
         </Grid>

@@ -18,3 +18,25 @@ C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\GenerateDataToSQL\bin\
 C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\GenerateDataToSQL\obj\Debug\GenerateDataToSQL.csprojResolveAssemblyReference.cache
 C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\GenerateDataToSQL\obj\Debug\GenerateDataToSQL.exe
 C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\GenerateDataToSQL\obj\Debug\GenerateDataToSQL.pdb
+D:\1\Projects\Spark\GenerateDataToSQL\bin\Debug\GenerateDataToSQL.exe.config
+D:\1\Projects\Spark\GenerateDataToSQL\bin\Debug\GenerateDataToSQL.exe
+D:\1\Projects\Spark\GenerateDataToSQL\bin\Debug\GenerateDataToSQL.pdb
+D:\1\Projects\Spark\GenerateDataToSQL\bin\Debug\Service.dll
+D:\1\Projects\Spark\GenerateDataToSQL\bin\Debug\System.Data.SQLite.dll
+D:\1\Projects\Spark\GenerateDataToSQL\bin\Debug\OxyPlot.dll
+D:\1\Projects\Spark\GenerateDataToSQL\bin\Debug\Service.pdb
+D:\1\Projects\Spark\GenerateDataToSQL\obj\Debug\GenerateDataToSQL.csprojAssemblyReference.cache
+D:\1\Projects\Spark\GenerateDataToSQL\obj\Debug\GenerateDataToSQL.csproj.CopyComplete
+D:\1\Projects\Spark\GenerateDataToSQL\obj\Debug\GenerateDataToSQL.exe
+D:\1\Projects\Spark\GenerateDataToSQL\obj\Debug\GenerateDataToSQL.pdb
+C:\Users\GriS\source\repos\Spark\GenerateDataToSQL\bin\Debug\GenerateDataToSQL.exe.config
+C:\Users\GriS\source\repos\Spark\GenerateDataToSQL\bin\Debug\GenerateDataToSQL.exe
+C:\Users\GriS\source\repos\Spark\GenerateDataToSQL\bin\Debug\GenerateDataToSQL.pdb
+C:\Users\GriS\source\repos\Spark\GenerateDataToSQL\bin\Debug\Service.dll
+C:\Users\GriS\source\repos\Spark\GenerateDataToSQL\bin\Debug\System.Data.SQLite.dll
+C:\Users\GriS\source\repos\Spark\GenerateDataToSQL\bin\Debug\OxyPlot.dll
+C:\Users\GriS\source\repos\Spark\GenerateDataToSQL\bin\Debug\Service.pdb
+C:\Users\GriS\source\repos\Spark\GenerateDataToSQL\obj\Debug\GenerateDataToSQL.csprojAssemblyReference.cache
+C:\Users\GriS\source\repos\Spark\GenerateDataToSQL\obj\Debug\GenerateDataToSQL.csproj.CopyComplete
+C:\Users\GriS\source\repos\Spark\GenerateDataToSQL\obj\Debug\GenerateDataToSQL.exe
+C:\Users\GriS\source\repos\Spark\GenerateDataToSQL\obj\Debug\GenerateDataToSQL.pdb

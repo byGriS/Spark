@@ -52,7 +52,7 @@ namespace SparkControls {
     private void Param_OnChangeValue(DataParam dataParam) {
       this.Dispatcher.Invoke(new ThreadStart(delegate {
         if ((dataParams[0].AlarmMax != 0) || (dataParams[0].AlarmMin != 0)) {
-          this.lValue.Foreground = new SolidColorBrush(Helper.Text);
+          this.lValue.Foreground = (Brush)((Setter)(((Style)FindResource("LabelStyle")).Setters[0])).Value;
           if (dataParams[0].Value < dataParams[0].AlarmMin) {
             this.lValue.Foreground = new SolidColorBrush(Helper.MinColor);
           }

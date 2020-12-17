@@ -26,6 +26,7 @@ namespace Core {
       startwork,
       endwork,
       numwork;
+    public List<string> listParams = new List<string>();
 
     public override string ToString() {
       return startwork;

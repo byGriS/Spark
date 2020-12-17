@@ -180,6 +180,7 @@ namespace Core {
       result += settingCommon.PathConfig + "\n";
       result += settingCommon.MaxColor.ToString() + "\n";
       result += settingCommon.MinColor.ToString() + "\n";
+      result += settingCommon.Dark.ToString() + "\n";
       return result;
     }
   }

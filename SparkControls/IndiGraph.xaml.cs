@@ -51,14 +51,36 @@ namespace SparkControls {
       }
     }
 
+    private bool darkTheme = false;
+    public bool DarkTheme {
+      get { return false; }
+      set {
+        if (Model != null) {
+          darkTheme = value;
+          Model.PlotAreaBorderColor = (darkTheme) ? OxyColor.FromRgb(180, 180, 180) : OxyColors.Black;
+          Model.LegendTextColor = (darkTheme) ? OxyColor.FromRgb(180, 180, 180) : OxyColors.Black;
+          Model.PlotAreaBackground = (darkTheme) ? OxyColor.FromRgb(58, 58, 58) : OxyColors.White;
+          foreach (Axis axe in Model.Axes) {
+            axe.TitleColor = (darkTheme) ? OxyColor.FromRgb(180, 180, 180) : OxyColors.Black;
+            axe.TextColor = (darkTheme) ? OxyColor.FromRgb(180, 180, 180) : OxyColors.Black;
+            axe.AxislineColor = (darkTheme) ? OxyColor.FromRgb(180, 180, 180) : OxyColors.Black;
+            axe.MajorGridlineColor = (darkTheme) ? OxyColor.FromRgb(180, 180, 180) : OxyColors.Black;
+            axe.MinorTicklineColor = (darkTheme) ? OxyColor.FromRgb(180, 180, 180) : OxyColors.Black;
+            axe.TicklineColor = (darkTheme) ? OxyColor.FromRgb(180, 180, 180) : OxyColors.Black;
+            axe.ExtraGridlineColor = (darkTheme) ? OxyColor.FromRgb(180, 180, 180) : OxyColors.Black;
+            axe.MinorGridlineColor = (darkTheme) ? OxyColor.FromRgb(180, 180, 180) : OxyColors.Black;
+          }
+          plotter.InvalidatePlot(false);
+        }
+      }
+    }
+
     private void InitGraph() {
       Model = new PlotModel();
-
-      Model.Background = OxyColors.Black;
       DateTimeAxis axisX = new DateTimeAxis() {
         Title = "Время",
         Position = AxisPosition.Bottom,
-        StringFormat = "HH:mm:ss"
+        StringFormat = "HH:mm:ss",
       };
       axisX.MajorGridlineStyle = LineStyle.Solid;
       axisX.MajorGridlineThickness = 1;

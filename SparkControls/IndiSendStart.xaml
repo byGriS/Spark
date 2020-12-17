@@ -9,24 +9,21 @@
              Background="#FFDADADA"
              BorderBrush="Black" 
              BorderThickness="2">
-    <Grid>
-    <Grid.Resources>
-      <Style TargetType="{x:Type Grid}">
-        <Setter Property="Background" Value="#FFDADADA"/>
-      </Style>
-    </Grid.Resources>
+  <Grid Style="{DynamicResource IndiBack}">
+    
     <Grid.RowDefinitions>
       <RowDefinition Height="1*"/>
       <RowDefinition Height="3*"/>
     </Grid.RowDefinitions>
     <Grid Grid.Row="0">
       <Viewbox Grid.Column="0">
-        <Label Content="Команда &quot;Обнуление&quot;"/>
+        <Label Content="Команда &quot;Обнуление&quot;" Style="{DynamicResource LabelStyle}"/>
       </Viewbox>
     </Grid>
-    <Button x:Name="btn" Grid.Row="1" Margin="15" Click="Button_Click" IsEnabled="False">
+    <Button x:Name="btn" Grid.Row="1" Margin="15" Click="Button_Click" IsEnabled="False"
+            Style="{DynamicResource ButtonStyle}">
       <Viewbox>
-        <Label Content="Отправить"/>
+        <Label Content="Отправить" Style="{DynamicResource LabelStyle}"/>
       </Viewbox>
     </Button>
   </Grid>

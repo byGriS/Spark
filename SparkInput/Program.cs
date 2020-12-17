@@ -301,14 +301,14 @@ namespace SparkInput {
                   switch (((Service.InputCommon)inputM.Input).ListDataParams[i].Type) {
                     case Service.ModbusType.BIT:
                     case Service.ModbusType.WORD:
-                      if (((Service.InputCommon)inputM.Input).ListDataParams[j].Address - ((Service.InputCommon)inputM.Input).ListDataParams[i].Address == 1)
+                      if (((Service.InputCommon)inputM.Input).ListDataParams[j].Address - ((Service.InputCommon)inputM.Input).ListDataParams[i].Address == countRegister*1)
                         countRegister++;
                       else
                         j = int.MaxValue;
                       break;
                     case Service.ModbusType.DWORD:
                     case Service.ModbusType.FLOAT:
-                      if (((Service.InputCommon)inputM.Input).ListDataParams[j].Address - ((Service.InputCommon)inputM.Input).ListDataParams[i].Address == 2)
+                      if (((Service.InputCommon)inputM.Input).ListDataParams[j].Address - ((Service.InputCommon)inputM.Input).ListDataParams[i].Address == countRegister*2)
                         countRegister++;
                       else
                         j = int.MaxValue;

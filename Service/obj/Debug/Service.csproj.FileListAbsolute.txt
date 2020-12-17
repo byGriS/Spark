@@ -38,3 +38,31 @@ C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\Service\obj\Debug\Serv
 C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\Service\obj\Debug\Service.dll
 C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\Service\obj\Debug\Service.pdb
 C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\Service\obj\Debug\Service.csprojResolveAssemblyReference.cache
+d:\1\Projects\Spark\Service\bin\Debug\Service.dll
+d:\1\Projects\Spark\Service\bin\Debug\Service.pdb
+d:\1\Projects\Spark\Service\bin\Debug\OxyPlot.dll
+d:\1\Projects\Spark\Service\bin\Debug\OxyPlot.Wpf.dll
+d:\1\Projects\Spark\Service\obj\Debug\Service.csprojAssemblyReference.cache
+d:\1\Projects\Spark\Service\obj\Debug\Service.MessageQuestion.resources
+d:\1\Projects\Spark\Service\obj\Debug\Service.MessageInput.resources
+d:\1\Projects\Spark\Service\obj\Debug\Service.MessageToggle.resources
+d:\1\Projects\Spark\Service\obj\Debug\Service.MessageView.resources
+d:\1\Projects\Spark\Service\obj\Debug\Service.Properties.Resources.resources
+d:\1\Projects\Spark\Service\obj\Debug\Service.csproj.GenerateResource.cache
+d:\1\Projects\Spark\Service\obj\Debug\Service.csproj.CopyComplete
+d:\1\Projects\Spark\Service\obj\Debug\Service.dll
+d:\1\Projects\Spark\Service\obj\Debug\Service.pdb
+C:\Users\GriS\source\repos\Spark\Service\bin\Debug\Service.dll
+C:\Users\GriS\source\repos\Spark\Service\bin\Debug\Service.pdb
+C:\Users\GriS\source\repos\Spark\Service\bin\Debug\OxyPlot.dll
+C:\Users\GriS\source\repos\Spark\Service\bin\Debug\OxyPlot.Wpf.dll
+C:\Users\GriS\source\repos\Spark\Service\obj\Debug\Service.csprojAssemblyReference.cache
+C:\Users\GriS\source\repos\Spark\Service\obj\Debug\Service.MessageQuestion.resources
+C:\Users\GriS\source\repos\Spark\Service\obj\Debug\Service.MessageInput.resources
+C:\Users\GriS\source\repos\Spark\Service\obj\Debug\Service.MessageToggle.resources
+C:\Users\GriS\source\repos\Spark\Service\obj\Debug\Service.MessageView.resources
+C:\Users\GriS\source\repos\Spark\Service\obj\Debug\Service.Properties.Resources.resources
+C:\Users\GriS\source\repos\Spark\Service\obj\Debug\Service.csproj.GenerateResource.cache
+C:\Users\GriS\source\repos\Spark\Service\obj\Debug\Service.csproj.CopyComplete
+C:\Users\GriS\source\repos\Spark\Service\obj\Debug\Service.dll
+C:\Users\GriS\source\repos\Spark\Service\obj\Debug\Service.pdb

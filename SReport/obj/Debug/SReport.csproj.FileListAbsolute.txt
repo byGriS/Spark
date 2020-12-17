@@ -30,3 +30,33 @@ C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\SReport\bin\Debug\Syst
 C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\SReport\bin\Debug\System.Xml.dll
 C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\SReport\bin\Debug\System.Xml.Linq.dll
 C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\SReport\bin\Debug\WindowsBase.dll
+D:\1\Projects\Spark\Spark\bin\Debug\SReport.exe.config
+D:\1\Projects\Spark\Spark\bin\Debug\SReport.exe
+D:\1\Projects\Spark\Spark\bin\Debug\SReport.pdb
+D:\1\Projects\Spark\SReport\obj\Debug\SReport.csprojAssemblyReference.cache
+D:\1\Projects\Spark\SReport\obj\Debug\SReportWindow.g.cs
+D:\1\Projects\Spark\SReport\obj\Debug\App.g.cs
+D:\1\Projects\Spark\SReport\obj\Debug\SReport_MarkupCompile.cache
+D:\1\Projects\Spark\SReport\obj\Debug\SReport_MarkupCompile.lref
+D:\1\Projects\Spark\SReport\obj\Debug\SReportWindow.baml
+D:\1\Projects\Spark\SReport\obj\Debug\SReport.g.resources
+D:\1\Projects\Spark\SReport\obj\Debug\SReport.Properties.Resources.resources
+D:\1\Projects\Spark\SReport\obj\Debug\SReport.csproj.GenerateResource.cache
+D:\1\Projects\Spark\SReport\obj\Debug\SReport.csproj.CopyComplete
+D:\1\Projects\Spark\SReport\obj\Debug\SReport.exe
+D:\1\Projects\Spark\SReport\obj\Debug\SReport.pdb
+C:\Users\GriS\source\repos\Spark\Spark\bin\Debug\SReport.exe.config
+C:\Users\GriS\source\repos\Spark\Spark\bin\Debug\SReport.exe
+C:\Users\GriS\source\repos\Spark\Spark\bin\Debug\SReport.pdb
+C:\Users\GriS\source\repos\Spark\SReport\obj\Debug\SReport.csprojAssemblyReference.cache
+C:\Users\GriS\source\repos\Spark\SReport\obj\Debug\SReportWindow.g.cs
+C:\Users\GriS\source\repos\Spark\SReport\obj\Debug\App.g.cs
+C:\Users\GriS\source\repos\Spark\SReport\obj\Debug\SReport_MarkupCompile.cache
+C:\Users\GriS\source\repos\Spark\SReport\obj\Debug\SReport_MarkupCompile.lref
+C:\Users\GriS\source\repos\Spark\SReport\obj\Debug\SReportWindow.baml
+C:\Users\GriS\source\repos\Spark\SReport\obj\Debug\SReport.g.resources
+C:\Users\GriS\source\repos\Spark\SReport\obj\Debug\SReport.Properties.Resources.resources
+C:\Users\GriS\source\repos\Spark\SReport\obj\Debug\SReport.csproj.GenerateResource.cache
+C:\Users\GriS\source\repos\Spark\SReport\obj\Debug\SReport.csproj.CopyComplete
+C:\Users\GriS\source\repos\Spark\SReport\obj\Debug\SReport.exe
+C:\Users\GriS\source\repos\Spark\SReport\obj\Debug\SReport.pdb

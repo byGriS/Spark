@@ -10,16 +10,18 @@
              Background="#FFDADADA"
              BorderBrush="Black" 
              BorderThickness="2">
-    <Grid>
+  <Grid Style="{DynamicResource IndiBackGraphTop}">
         <Grid.RowDefinitions>
             <RowDefinition Height="auto"/>
             <RowDefinition/>
         </Grid.RowDefinitions>
         <DockPanel Grid.Row="0">
-            <Label x:Name="lTitle" Content="График" HorizontalAlignment="Center" />
+            <Label x:Name="lTitle" Content="График" HorizontalAlignment="Center"
+                   Style="{DynamicResource LabelStyle}" />
         </DockPanel>
         <Grid Grid.Row="1">
-            <oxy:PlotView Grid.Row="1" x:Name="plotter" x:FieldModifier="public"/>
+            <oxy:PlotView Grid.Row="1" x:Name="plotter" x:FieldModifier="public"
+                          Style="{DynamicResource IndiBackGraph}" />
         </Grid>
     </Grid>
 </UserControl>

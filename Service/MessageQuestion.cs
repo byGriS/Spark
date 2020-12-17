@@ -8,7 +8,7 @@ namespace Service {
       this.Text = caption;
       label1.Text = message;
       if (mode == MessageViewMode.Message) {
-        this.Height = 125;
+        this.Height = 150;
         button1.Visible = false;
         System.Timers.Timer timer = new System.Timers.Timer(2000);
         timer.AutoReset = false;

@@ -1,0 +1,25 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:local="clr-namespace:Spark">
+
+  <ImageBrush x:Key="TopImage" ImageSource="Resources/top.jpg"/>
+  <ImageBrush x:Key="BackImage" ImageSource="Resources/back.jpg"/>
+  <SolidColorBrush x:Key="Back" Color="#cccccc"/>
+  <SolidColorBrush x:Key="BackTop" Color="#ffffff"/>
+  <SolidColorBrush x:Key="TextColor" Color="Black"/>
+  <SolidColorBrush x:Key="TabItemSelected" Color="#afe2ff"/>
+  <SolidColorBrush x:Key="BackIndi" Color="#DADADA"/>
+  <SolidColorBrush x:Key="BackButton" Color="#ffffff"/>
+  <SolidColorBrush x:Key="BackButtonHover" Color="#d7e9f1"/>
+  <SolidColorBrush x:Key="BackIndiDataGrid" Color="#DADADA"/>
+  <SolidColorBrush x:Key="BackIndiDataGridCell" Color="#EAEAEA"/>
+  <SolidColorBrush x:Key="BackIndiGraph" Color="#DDDDDD"/>
+  <SolidColorBrush x:Key="BackIndiGraphTop" Color="#aaa"/>
+  <SolidColorBrush x:Key="BackIndiGraphModel" Color="#ffffff"/>
+
+  <SolidColorBrush x:Key="IndiArrowBack" Color="#999"/>
+  <SolidColorBrush x:Key="IndiArrowBackBorder" Color="#555"/>
+  <SolidColorBrush x:Key="IndiArrowFill" Color="#222222"/>
+  <SolidColorBrush x:Key="IndiArrowBorder" Color="#222222"/>
+
+</ResourceDictionary>

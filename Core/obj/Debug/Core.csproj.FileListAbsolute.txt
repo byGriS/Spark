@@ -38,3 +38,33 @@ C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\Core\bin\Debug\Newtons
 C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\Core\obj\Debug\Core.csprojResolveAssemblyReference.cache
 C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\Core\obj\Debug\Core.dll
 C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\Core\obj\Debug\Core.pdb
+d:\1\Projects\Spark\Core\bin\Debug\Core.dll.config
+d:\1\Projects\Spark\Core\bin\Debug\Core.dll
+d:\1\Projects\Spark\Core\bin\Debug\Core.pdb
+d:\1\Projects\Spark\Core\bin\Debug\Newtonsoft.Json.dll
+d:\1\Projects\Spark\Core\bin\Debug\OxyPlot.dll
+d:\1\Projects\Spark\Core\bin\Debug\OxyPlot.Wpf.dll
+d:\1\Projects\Spark\Core\bin\Debug\Service.dll
+d:\1\Projects\Spark\Core\bin\Debug\SparkControls.dll
+d:\1\Projects\Spark\Core\bin\Debug\Service.pdb
+d:\1\Projects\Spark\Core\bin\Debug\SparkControls.pdb
+d:\1\Projects\Spark\Core\bin\Debug\Newtonsoft.Json.xml
+d:\1\Projects\Spark\Core\obj\Debug\Core.csprojAssemblyReference.cache
+d:\1\Projects\Spark\Core\obj\Debug\Core.csproj.CopyComplete
+d:\1\Projects\Spark\Core\obj\Debug\Core.dll
+d:\1\Projects\Spark\Core\obj\Debug\Core.pdb
+C:\Users\GriS\source\repos\Spark\Core\bin\Debug\Core.dll.config
+C:\Users\GriS\source\repos\Spark\Core\bin\Debug\Core.dll
+C:\Users\GriS\source\repos\Spark\Core\bin\Debug\Core.pdb
+C:\Users\GriS\source\repos\Spark\Core\bin\Debug\Newtonsoft.Json.dll
+C:\Users\GriS\source\repos\Spark\Core\bin\Debug\OxyPlot.dll
+C:\Users\GriS\source\repos\Spark\Core\bin\Debug\OxyPlot.Wpf.dll
+C:\Users\GriS\source\repos\Spark\Core\bin\Debug\Service.dll
+C:\Users\GriS\source\repos\Spark\Core\bin\Debug\SparkControls.dll
+C:\Users\GriS\source\repos\Spark\Core\bin\Debug\Service.pdb
+C:\Users\GriS\source\repos\Spark\Core\bin\Debug\SparkControls.pdb
+C:\Users\GriS\source\repos\Spark\Core\bin\Debug\Newtonsoft.Json.xml
+C:\Users\GriS\source\repos\Spark\Core\obj\Debug\Core.csprojAssemblyReference.cache
+C:\Users\GriS\source\repos\Spark\Core\obj\Debug\Core.csproj.CopyComplete
+C:\Users\GriS\source\repos\Spark\Core\obj\Debug\Core.dll
+C:\Users\GriS\source\repos\Spark\Core\obj\Debug\Core.pdb

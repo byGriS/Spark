@@ -151,8 +151,8 @@ namespace Spark {
     }
 
     private void SendExportData(string data) {
-      //string url = "http://192.168.1.2/api/setarchive.php";
-      string url = "http://fh7929y8.bget.ru/spark/api/setarchive.php";
+      string url = "http://192.168.1.2/api/setarchive.php";
+      //string url = "http://fh7929y8.bget.ru/spark/api/setarchive.php";
       HttpWebRequest request = (HttpWebRequest)HttpWebRequest.Create(url);  //make request         
       request.ContentType = "application/json";
       request.Method = "POST";
@@ -175,8 +175,8 @@ namespace Spark {
     }
 
     private bool SendWork(string data) {
-      //string url = "http://192.168.1.2/api/setworkarchive.php";
-      string url = "http://fh7929y8.bget.ru/spark/api/setworkarchive.php";
+      string url = "http://192.168.1.2/api/setworkarchive.php";
+      //string url = "http://fh7929y8.bget.ru/spark/api/setworkarchive.php";
       HttpWebRequest request = (HttpWebRequest)HttpWebRequest.Create(url);  //make request         
       request.ContentType = "application/json";
       request.Method = "POST";

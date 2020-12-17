@@ -83,6 +83,16 @@ namespace Spark.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap backD {
+            get {
+                object obj = ResourceManager.GetObject("backD", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap EthernetAdd {
             get {
                 object obj = ResourceManager.GetObject("EthernetAdd", resourceCulture);
@@ -146,6 +156,16 @@ namespace Spark.Properties {
         internal static System.Drawing.Bitmap top {
             get {
                 object obj = ResourceManager.GetObject("top", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap topD {
+            get {
+                object obj = ResourceManager.GetObject("topD", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

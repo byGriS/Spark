@@ -1,4 +1,5 @@
-﻿using System.ComponentModel;
+﻿using Service;
+using System.ComponentModel;
 using System.Windows.Media;
 
 namespace Core {
@@ -40,6 +41,8 @@ namespace Core {
 
     public bool changed { get; set; }
 
+    public bool Dark { get; set; }
+
     public SettingCommon Clone() {
       SettingCommon sc = new SettingCommon();
       sc.PassAdmin = this.PassAdmin;
@@ -50,6 +53,7 @@ namespace Core {
       sc.PathConfig = this.PathConfig;
       sc.MinColor = Color.FromRgb(this.MinColor.R, this.MinColor.G, this.MinColor.B);
       sc.MaxColor = Color.FromRgb(this.MaxColor.R, this.MaxColor.G, this.MaxColor.B);
+      sc.Dark = Dark;
       return sc;
     }
   }

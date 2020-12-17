@@ -13,3 +13,15 @@ C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\Updater\obj\Debug\Upda
 C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\Spark\bin\Debug\Updater.exe.config
 C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\Spark\bin\Debug\Updater.exe
 C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\Spark\bin\Debug\Updater.pdb
+D:\1\Projects\Spark\Spark\bin\Debug\Updater.exe.config
+D:\1\Projects\Spark\Spark\bin\Debug\Updater.exe
+D:\1\Projects\Spark\Spark\bin\Debug\Updater.pdb
+D:\1\Projects\Spark\Updater\obj\Debug\Updater.csprojAssemblyReference.cache
+D:\1\Projects\Spark\Updater\obj\Debug\Updater.exe
+D:\1\Projects\Spark\Updater\obj\Debug\Updater.pdb
+C:\Users\GriS\source\repos\Spark\Spark\bin\Debug\Updater.exe.config
+C:\Users\GriS\source\repos\Spark\Spark\bin\Debug\Updater.exe
+C:\Users\GriS\source\repos\Spark\Spark\bin\Debug\Updater.pdb
+C:\Users\GriS\source\repos\Spark\Updater\obj\Debug\Updater.csprojAssemblyReference.cache
+C:\Users\GriS\source\repos\Spark\Updater\obj\Debug\Updater.exe
+C:\Users\GriS\source\repos\Spark\Updater\obj\Debug\Updater.pdb

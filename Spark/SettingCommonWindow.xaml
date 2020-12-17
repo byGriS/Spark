@@ -8,67 +8,73 @@
         Title="Общие настройки" Height="420" Width="450"
         WindowStyle="None"
         WindowStartupLocation="CenterScreen">
-    <Grid Background="#FFE5E5E5">
-        <Grid.RowDefinitions>
-            <RowDefinition/>
-            <RowDefinition Height="32"/>
-        </Grid.RowDefinitions>
-        <StackPanel>
-            <CheckBox x:Name="cWindowMode" 
+  <Grid Background="#FFE5E5E5">
+    <Grid.RowDefinitions>
+      <RowDefinition/>
+      <RowDefinition Height="32"/>
+    </Grid.RowDefinitions>
+    <StackPanel>
+      <StackPanel Orientation="Horizontal">
+        <CheckBox x:Name="cWindowMode" 
                       Content="Оконный режим"
                       Margin="10"
                       IsChecked="{Binding Path=IsWindowMode}"/>
-            <Border BorderThickness="1" BorderBrush="Gray"></Border>
-            <StackPanel Margin="10">
-                <Label Content="Изменение пароля администратора"/>
-                <StackPanel Orientation="Horizontal">
-                    <Label Content="Новый пароль"/>
-                    <Label Content="Старый пароль" Margin="5 0 8 0"/>
-                </StackPanel>
-                <StackPanel Orientation="Horizontal">
-                    <TextBox x:Name="tbNewPass" Width="85" Margin="3 0 8 0"/>
-                    <TextBox x:Name="tbOldPass" Width="85" Margin="3 0 8 0"/>
-                    <Button Width="85" Content="Изменить" Click="NewPass_Click"/>
-                </StackPanel>
-            </StackPanel>
-            <Border BorderThickness="1" BorderBrush="Gray"></Border>
-            <StackPanel Margin="10">
-                <CheckBox x:Name="cAutoRun" 
+        <CheckBox Content="Темная тема"
+                  Margin="10"
+                  IsChecked="{Binding Path=Dark}"/>
+      </StackPanel>
+      <Border BorderThickness="1" BorderBrush="Gray"></Border>
+      <StackPanel Margin="10">
+        <Label Content="Изменение пароля администратора"/>
+        <StackPanel Orientation="Horizontal">
+          <Label Content="Новый пароль"/>
+          <Label Content="Старый пароль" Margin="5 0 8 0"/>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal">
+          <TextBox x:Name="tbNewPass" Width="85" Margin="3 0 8 0"/>
+          <TextBox x:Name="tbOldPass" Width="85" Margin="3 0 8 0"/>
+          <Button Width="85" Content="Изменить" Click="NewPass_Click"/>
+        </StackPanel>
+      </StackPanel>
+      <Border BorderThickness="1" BorderBrush="Gray"></Border>
+      <StackPanel Margin="10">
+        <CheckBox x:Name="cAutoRun" 
                       Content="Автозапуск программы"
                       Margin="5"
                       IsChecked="{Binding .IsAutorunWin}"/>
-                <CheckBox x:Name="cAutoRunModules" 
+        <CheckBox x:Name="cAutoRunModules" 
                       Content="Автозапуск модулей при загрузке конфигурации"
                       Margin="5"
                       IsChecked="{Binding .IsRunModules}"/>
-                <Label Content="Конфигурационный файл для автозапуска"/>
-                <StackPanel Orientation="Horizontal">
-                    <TextBox IsReadOnly="True" Width="300" Text="{Binding .PathConfig}"/>
-                    <Button x:Name="bAutoRunFile" Content="Изменить" Click="AutoRunFile_Click"/>
-                    <Button x:Name="bAutoRunFileCancel" Content="Отменить" Click="AutoRunFileCancel_Click"/>
-                </StackPanel>
-            </StackPanel>
-            <Border BorderThickness="1" BorderBrush="Gray"></Border>
-            <StackPanel Margin="10">
-                <Label Content="Сигнальные цвета"/>
-                <StackPanel Orientation="Horizontal">
-                    <Label Content="Нижнее значение"/>
-                    <Button x:Name="bMinColor" Width="50" Margin="3" Background="Blue" Click="bMinColor_Click"/>
-                    <Label Content="Верхнее значение"/>
-                    <Button x:Name="bMaxColor" Width="50" Margin="3" Background="Red" Click="bMaxColor_Click"/>
-                </StackPanel>
-            </StackPanel>
-            <Border BorderThickness="1" BorderBrush="Gray"></Border>
-            <Grid Margin="10">
-                <Button Content="Привязать программу к компьютеру" 
+        <Label Content="Конфигурационный файл для автозапуска"/>
+        <StackPanel Orientation="Horizontal">
+          <TextBox IsReadOnly="True" Width="300" Text="{Binding .PathConfig}"/>
+          <Button x:Name="bAutoRunFile" Content="Изменить" Click="AutoRunFile_Click"/>
+          <Button x:Name="bAutoRunFileCancel" Content="Отменить" Click="AutoRunFileCancel_Click"/>
+        </StackPanel>
+      </StackPanel>
+      <Border BorderThickness="1" BorderBrush="Gray"></Border>
+      <StackPanel Margin="10">
+        <Label Content="Сигнальные цвета"/>
+        <StackPanel Orientation="Horizontal">
+          <Label Content="Нижнее значение"/>
+          <Button x:Name="bMinColor" Width="50" Margin="3" Background="Blue" Click="bMinColor_Click"/>
+          <Label Content="Верхнее значение"/>
+          <Button x:Name="bMaxColor" Width="50" Margin="3" Background="Red" Click="bMaxColor_Click"/>
+        </StackPanel>
+      </StackPanel>
+      <Border BorderThickness="1" BorderBrush="Gray"></Border>
+      <Grid Margin="10">
+        <Button Content="Привязать программу к компьютеру" 
                         Margin="5" 
                         Height="26"
                         Click="BindingPC_Click"/>
-            </Grid>
-        </StackPanel>    
-        <StackPanel  Grid.Row="2" Background="Gray" Orientation="Horizontal" FlowDirection="RightToLeft">
-            <Button Content="Ок" Padding="3" Click="Ok_Click" Margin="3" Width="75"/>
-            <Button Content="Отменить" Padding="3" Click="Cancel_Click" Margin="3" Width="75"/>
-        </StackPanel>
-    </Grid>
+      </Grid>
+    </StackPanel>
+    <StackPanel  Grid.Row="2" Background="Gray" Orientation="Horizontal" FlowDirection="RightToLeft">
+      <Button Content="Ок" Padding="3" Click="Ok_Click" Margin="3" Width="75"/>
+      <Button Content="Отменить" Padding="3" Click="Cancel_Click" Margin="3" Width="75"/>
+    </StackPanel>
+  </Grid>
 </Window>
+  

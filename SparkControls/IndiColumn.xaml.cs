@@ -69,12 +69,13 @@ namespace SparkControls {
         canvasColumn.Children.Clear();
         Rectangle rect = new Rectangle();
         rect.Width = canvasColumn.ActualWidth;
-        double resultHeight = dataParams[0].Value * canvasColumn.ActualHeight / MaxValue;
+        double resultHeight = (dataParams[0].Value-MinValue) * canvasColumn.ActualHeight / (MaxValue-MinValue);
+        
         rect.Height = (resultHeight >= 0) ? resultHeight : 0;
         if (rect.Height > canvasColumn.ActualHeight)
           rect.Height = canvasColumn.ActualHeight + 10;
         rect.Fill = new SolidColorBrush(Colors.Blue);
-        this.lValue.Foreground = new SolidColorBrush(Helper.Text);
+        this.lValue.Foreground = (Brush)((Setter)(((Style)FindResource("LabelStyle")).Setters[0])).Value;
 
         if ((dataParams[0].AlarmMax != 0) || (dataParams[0].AlarmMin != 0)) {
           if (dataParams[0].Value < dataParams[0].AlarmMin) {

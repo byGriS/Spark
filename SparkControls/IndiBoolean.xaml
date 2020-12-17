@@ -10,26 +10,25 @@
              BorderBrush="Black" 
              BorderThickness="2"
              MouseDoubleClick="UserControl_MouseDoubleClick">
-    <Grid>
-        <Grid.Resources>
-            <Style TargetType="{x:Type Grid}">
-                <Setter Property="Background" Value="#FFDADADA"/>
-            </Style>
-        </Grid.Resources>
-        <Grid.RowDefinitions>
-            <RowDefinition Height="1*"/>
-            <RowDefinition Height="3*"/>
-        </Grid.RowDefinitions>
-        <Grid Grid.Row="0">
-            <Viewbox Grid.Column="0">
-                <Label Content='{Binding .Title, FallbackValue="Параметр", Mode=TwoWay}' Foreground="#FF101010" FontWeight="Bold" Padding="2"/>
-            </Viewbox>
-        </Grid>
-        <Viewbox Grid.Row="1">
-            <Canvas Margin="5" x:Name="cShow" Height="100" Width="100">
-            <Ellipse x:Name="ellipse" Fill="DarkGray" Stroke="Black" StrokeThickness="2"
-                 Height="100" Width="100"/>
-        </Canvas>
-        </Viewbox>
+  <Grid Style="{DynamicResource IndiBack}">
+
+    <Grid.RowDefinitions>
+      <RowDefinition Height="1*"/>
+      <RowDefinition Height="3*"/>
+    </Grid.RowDefinitions>
+    <Grid Grid.Row="0">
+      <Viewbox Grid.Column="0">
+        <Label Content='{Binding .Title, FallbackValue="Параметр", Mode=TwoWay}' 
+                       FontWeight="Bold" 
+                       Style="{DynamicResource LabelStyle}" 
+                       Padding="2"/>
+      </Viewbox>
     </Grid>
+    <Viewbox Grid.Row="1">
+      <Canvas Margin="5" x:Name="cShow" Height="100" Width="100">
+        <Ellipse x:Name="ellipse" Fill="DarkGray" Stroke="Black" StrokeThickness="2"
+                 Height="100" Width="100"/>
+      </Canvas>
+    </Viewbox>
+  </Grid>
 </UserControl>

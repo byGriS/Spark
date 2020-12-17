@@ -94,6 +94,7 @@ namespace Spark {
       settingCommonReturn.MinColor = Color.FromRgb(settingCommon.MinColor.R, settingCommon.MinColor.G, settingCommon.MinColor.B);
       settingCommonReturn.MaxColor = Color.FromRgb(settingCommon.MaxColor.R, settingCommon.MaxColor.G, settingCommon.MaxColor.B);
       settingCommonReturn.PassAdmin = settingCommon.PassAdmin;
+      settingCommonReturn.Dark = settingCommon.Dark;
       settingCommonReturn.changed = true;
     }
   }

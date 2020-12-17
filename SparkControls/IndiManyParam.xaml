@@ -9,55 +9,60 @@
              Background="#FFDADADA"
              BorderBrush="Black" 
              BorderThickness="2">
-    <Grid>
-        <Grid.RowDefinitions>
-            <RowDefinition Height="auto"/>
-            <RowDefinition/>
-        </Grid.RowDefinitions>
-        <DockPanel Grid.Row="0">
-            <Label x:Name="lTitle" Content="Набор параметров" HorizontalAlignment="Center" />
-        </DockPanel>
-        <Grid Grid.Row="1">
-            <DataGrid x:Name="ShowParams"
-                  AutoGenerateColumns="False" 
-                  ItemsSource="{Binding}"
-                  CanUserDeleteRows="False"
-                  CanUserAddRows="False"
-                  SelectionMode="Single" 
-                  SelectionUnit="Cell"
-                  RowHeaderWidth="0"
-                  ColumnHeaderHeight="0"
-                  IsReadOnly="True"
-                  CanUserSortColumns="False"
-                  SelectedCellsChanged="ShowParams_SelectedCellsChanged">
-                <DataGrid.Columns>
-                    <DataGridTextColumn Header="Название" Width="3*" Binding="{Binding Path=Title}">
-                        <DataGridTextColumn.ElementStyle>
-                            <Style>
-                                <Setter Property="TextBlock.TextAlignment" Value="Center"/>
-                                <Setter Property="TextBlock.FontSize" Value="20"/>
-                            </Style>
-                        </DataGridTextColumn.ElementStyle>
-                    </DataGridTextColumn>
-                    <DataGridTextColumn Header="Значение" Width="1*" Binding="{Binding Path=Value}">
-                        <DataGridTextColumn.ElementStyle>
-                            <Style>
-                                <Setter Property="TextBlock.TextAlignment" Value="Center"/>
-                                <Setter Property="TextBlock.Foreground" Value="{Binding .}" />
-                                <Setter Property="TextBlock.FontSize" Value="20"/>
-                            </Style>
-                        </DataGridTextColumn.ElementStyle>
-                    </DataGridTextColumn>
-                    <DataGridTextColumn Header="Ед. изм." Width="1*" Binding="{Binding Path=ParamUnit.Title}">
-                        <DataGridTextColumn.ElementStyle>
-                            <Style>
-                                <Setter Property="TextBlock.TextAlignment" Value="Center"/>
-                                <Setter Property="TextBlock.FontSize" Value="20"/>
-                            </Style>
-                        </DataGridTextColumn.ElementStyle>
-                    </DataGridTextColumn>
-                </DataGrid.Columns>
-            </DataGrid>
-        </Grid>
+  <Grid Style="{DynamicResource IndiBack}">
+    <Grid.RowDefinitions>
+      <RowDefinition Height="auto"/>
+      <RowDefinition/>
+    </Grid.RowDefinitions>
+    <DockPanel Grid.Row="0">
+      <Label x:Name="lTitle" 
+                   Content="Набор параметров" 
+                   Style="{DynamicResource LabelStyle}" 
+                   HorizontalAlignment="Center" />
+    </DockPanel>
+    <Grid Grid.Row="1">
+      <DataGrid x:Name="ShowParams"
+                AutoGenerateColumns="False" 
+                ItemsSource="{Binding}"
+                CanUserDeleteRows="False"
+                CanUserAddRows="False"
+                SelectionMode="Single" 
+                SelectionUnit="Cell"
+                RowHeaderWidth="0"
+                ColumnHeaderHeight="0"
+                IsReadOnly="True"
+                CanUserSortColumns="False"
+                Style="{DynamicResource IndiBackDataGrid}"
+                SelectedCellsChanged="ShowParams_SelectedCellsChanged">
+        <DataGrid.Columns>
+          <DataGridTextColumn Header="Название" Width="3*" Binding="{Binding Path=Title}">
+            <DataGridTextColumn.ElementStyle>
+              <Style>
+                <Setter Property="TextBlock.TextAlignment" Value="Center"/>
+                <Setter Property="TextBlock.FontSize" Value="20"/>
+              </Style>
+            </DataGridTextColumn.ElementStyle>
+          </DataGridTextColumn>
+          <DataGridTextColumn Header="Значение" Width="1*" Binding="{Binding Path=Value}">
+            <DataGridTextColumn.ElementStyle>
+              <Style>
+                <Setter Property="TextBlock.TextAlignment" Value="Center"/>
+                <!--<Setter Property="TextBlock.Foreground" Value="{Binding .}" />-->
+                <Setter Property="TextBlock.FontSize" Value="20"/>
+              </Style>
+            </DataGridTextColumn.ElementStyle>
+          </DataGridTextColumn>
+          <DataGridTextColumn Header="Ед. изм." Width="1*" Binding="{Binding Path=ParamUnit.Title}">
+            <DataGridTextColumn.ElementStyle>
+              <Style>
+                <Setter Property="TextBlock.TextAlignment" Value="Center"/>
+                <Setter Property="TextBlock.FontSize" Value="20"/>
+              </Style>
+            </DataGridTextColumn.ElementStyle>
+          </DataGridTextColumn>
+        </DataGrid.Columns>
+      </DataGrid>
     </Grid>
+  </Grid>
 </UserControl>
+  

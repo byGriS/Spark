@@ -16,102 +16,93 @@
         MouseMove="Window_MouseMove"
         MouseUp="Window_MouseUp"
         SizeChanged="Window_SizeChanged">
-  <Window.Resources>
-    <ImageBrush 
-            x:Key ="MyImageBrush" 
-            ImageSource ="pack://application:,,,/Spark;component/resources/top.jpg" 
-            />
-  </Window.Resources>
-  <Grid>
+
+
+  <Grid Style="{DynamicResource Top}">
     <Grid.RowDefinitions>
       <RowDefinition Height="26"></RowDefinition>
       <RowDefinition Height="26"></RowDefinition>
       <RowDefinition Height="1*"></RowDefinition>
     </Grid.RowDefinitions>
-    <Border BorderThickness="0 0 0 0" BorderBrush="Black">
-      <Grid>
-        <DockPanel Grid.ColumnSpan="2">
-          <Menu HorizontalAlignment="Left" Background="{x:Null}">
-            <MenuItem Header="Главная" Height="24">
-              <MenuItem x:Name="menuNew" Header="Новый" Click="New_Click"/>
-              <MenuItem x:Name="menuSave" Header="Сохранить" Click="Save_Click"/>
-              <MenuItem x:Name="menuLoad" Header="Загрузить" Click="Load_Click"/>
-              <Separator/>
-              <MenuItem Header="Выход" Click="Close_Click"/>
-            </MenuItem>
-            <MenuItem x:Name="menuData" Header="Данные">
-              <MenuItem x:Name="menuCommonData" Header="Общие данные" Click="CommonSetting_Click"/>
-              <MenuItem x:Name="menuInputSetting" Header="Входные настройки" Click="InputSetting_Click"/>
-              <MenuItem x:Name="menuOutputSetting" Header="Выходные настройки" Click="OutputSetting_Click"/>
-              <MenuItem x:Name="menuCounterPipe" Header="Счетчик труб" Click="menuCounterPipe_Click"/>
-            </MenuItem>
-            <MenuItem x:Name="menuWindows" Header="Окна">
-              <MenuItem Header="Добавить окно" Click="WindowAdd_Click"/>
-              <MenuItem x:Name="windowDelete" Header="Удалить окно" IsEnabled="False" Click="windowDelete_Click"/>
-              <MenuItem x:Name="elementAdd" Header="Добавить элемент" IsEnabled="False" Click="elementAdd_Click"/>
-            </MenuItem>
-            <MenuItem x:Name="menuWork" Header="Работа">
-              <MenuItem x:Name="inputStartBtn" Header="Запуск входов" Click="InputStart_Click"/>
-              <MenuItem x:Name="outputStartBtn" Header="Запуск выходов" Click="OutputStart_Click"/>
-              <Separator/>
-              <MenuItem x:Name="reportNKTStartBtn" Header="Отчет мер НКТ" Click="ReportNKTStartBtn_Click"/>
-            </MenuItem>
-            <MenuItem Header="Архив" Click="Archive_Click"/>
-            <MenuItem Header="Настройки">
-              <MenuItem x:Name="menuCommonSetting" Header="Общие настройки" Click="GenSetting_Click"/>
-              <MenuItem x:Name="menuSettingGraph" Header="Настройки графиков" Click="GraphSetting_Click"/>
-              <MenuItem x:Name="menuUnits" Header="Ед. изм." Click="UnitSetting_Click"/>
-              <MenuItem x:Name="menuPipeCounterSet" Header="Настройка счетчика труб" Click="PipeCounterSet_Click"/>
-              <Separator/>
-              <!--<MenuItem Header="Счетчик труб" Click="PipeCounter_Click"/>-->
-              <MenuItem Header="Эмулятор труб" Click="PipeEmul_Click"/>
-            </MenuItem>
-            <MenuItem Header="Права доступа" Click="Admin_Click"/>
-            <MenuItem Header="Справка">
-              <MenuItem Header="Лицензия" Click="License_Click"/>
-              <MenuItem Header="Проверить обновления" Click="Update_Click"/>
-            </MenuItem>
-          </Menu>
-        </DockPanel>
-      </Grid>
-    </Border>
-    <Grid Grid.Row="1" Background="{StaticResource MyImageBrush}">
+    <Grid Style="{DynamicResource Top}">
+      <DockPanel Grid.ColumnSpan="2">
+        <Menu HorizontalAlignment="Left" Background="{x:Null}">
+          <MenuItem Header="Главная" Height="24" Style="{DynamicResource TopMenu}">
+            <MenuItem x:Name="menuNew" Header="Новый" Click="New_Click" Style="{DynamicResource TopMenu}"/>
+            <MenuItem x:Name="menuSave" Header="Сохранить" Click="Save_Click" Style="{DynamicResource TopMenu}"/>
+            <MenuItem x:Name="menuLoad" Header="Загрузить" Click="Load_Click" Style="{DynamicResource TopMenu}"/>
+            <Separator/>
+            <MenuItem Header="Выход" Click="Close_Click" Style="{DynamicResource TopMenu}"/>
+          </MenuItem>
+          <MenuItem x:Name="menuData" Header="Данные" Style="{DynamicResource TopMenu}">
+            <MenuItem x:Name="menuCommonData" Header="Общие данные" Click="CommonSetting_Click" Style="{DynamicResource TopMenu}"/>
+            <MenuItem x:Name="menuInputSetting" Header="Входные настройки" Click="InputSetting_Click" Style="{DynamicResource TopMenu}"/>
+            <MenuItem x:Name="menuOutputSetting" Header="Выходные настройки" Click="OutputSetting_Click" Style="{DynamicResource TopMenu}"/>
+            <MenuItem x:Name="menuCounterPipe" Header="Счетчик труб" Click="menuCounterPipe_Click" Style="{DynamicResource TopMenu}"/>
+          </MenuItem>
+          <MenuItem x:Name="menuWindows" Header="Окна" Style="{DynamicResource TopMenu}">
+            <MenuItem Header="Добавить окно" Click="WindowAdd_Click" Style="{DynamicResource TopMenu}"/>
+            <MenuItem x:Name="windowDelete" Header="Удалить окно" IsEnabled="False" Click="windowDelete_Click" Style="{DynamicResource TopMenu}"/>
+            <MenuItem x:Name="elementAdd" Header="Добавить элемент" IsEnabled="False" Click="elementAdd_Click" Style="{DynamicResource TopMenu}"/>
+          </MenuItem>
+          <MenuItem x:Name="menuWork" Header="Работа" Style="{DynamicResource TopMenu}">
+            <MenuItem x:Name="inputStartBtn" Header="Запуск входов" Click="InputStart_Click" Style="{DynamicResource TopMenu}"/>
+            <MenuItem x:Name="outputStartBtn" Header="Запуск выходов" Click="OutputStart_Click" Style="{DynamicResource TopMenu}"/>
+            <Separator/>
+            <MenuItem x:Name="reportNKTStartBtn" Header="Отчет мер НКТ" Click="ReportNKTStartBtn_Click" Style="{DynamicResource TopMenu}"/>
+          </MenuItem>
+          <MenuItem Header="Архив" Click="Archive_Click" Style="{DynamicResource TopMenu}"/>
+          <MenuItem Header="Настройки" Style="{DynamicResource TopMenu}">
+            <MenuItem x:Name="menuCommonSetting" Header="Общие настройки" Click="GenSetting_Click" Style="{DynamicResource TopMenu}"/>
+            <MenuItem x:Name="menuSettingGraph" Header="Настройки графиков" Click="GraphSetting_Click" Style="{DynamicResource TopMenu}"/>
+            <MenuItem x:Name="menuUnits" Header="Ед. изм." Click="UnitSetting_Click" Style="{DynamicResource TopMenu}"/>
+            <MenuItem x:Name="menuPipeCounterSet" Header="Настройка счетчика труб" Click="PipeCounterSet_Click" Style="{DynamicResource TopMenu}"/>
+            <Separator/>
+            <!--<MenuItem Header="Счетчик труб" Click="PipeCounter_Click"/>-->
+            <MenuItem Header="Эмулятор труб" Click="PipeEmul_Click" Style="{DynamicResource TopMenu}"/>
+          </MenuItem>
+          <MenuItem Header="Права доступа" Click="Admin_Click" Style="{DynamicResource TopMenu}"/>
+          <MenuItem Header="Справка" Style="{DynamicResource TopMenu}">
+            <MenuItem Header="Лицензия" Click="License_Click" Style="{DynamicResource TopMenu}"/>
+            <MenuItem Header="Проверить обновления" Click="Update_Click" Style="{DynamicResource TopMenu}"/>
+          </MenuItem>
+        </Menu>
+      </DockPanel>
+    </Grid>
+    <Grid Grid.Row="1" Style="{DynamicResource TopPanel}">
       <Grid.ColumnDefinitions>
         <ColumnDefinition Width="300"/>
         <ColumnDefinition/>
       </Grid.ColumnDefinitions>
-      <Label Grid.Column="0" Content="{Binding Path=Title}" FontWeight="Bold" HorizontalContentAlignment="Center"/>
+      <Label Grid.Column="0" Content="{Binding Path=Title}" FontWeight="Bold" HorizontalContentAlignment="Center"
+             Style="{DynamicResource LabelStyle}"/>
       <StackPanel Grid.Column="1" 
                         Orientation="Horizontal" 
                         HorizontalAlignment="Right"
                         Margin="10 0">
-        <CheckBox Content="Отправлять данные" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="10 0"
+        <CheckBox Style="{DynamicResource CheckBoxStyle}"
+                  Content="Отправлять данные" 
+                  HorizontalAlignment="Right" VerticalAlignment="Center" 
+                  Margin="10 0"
                   IsChecked="{Binding Path=IsSendToServer, Mode=TwoWay}"/>
-        <Label Content="Веб-севрер" HorizontalAlignment="Right"/>
+        <Label x:Name="lServer" Content="Веб-севрер" HorizontalAlignment="Right" Style="{DynamicResource LabelStyle}"/>
         <Canvas Grid.Column="1" x:Name="webWork" Width="26" Margin="2"/>
-        <Label Content="Вход" HorizontalAlignment="Right"/>
+        <Label x:Name="lInput" Content="Вход" HorizontalAlignment="Right" Style="{DynamicResource LabelStyle}"/>
         <Canvas Grid.Column="1" x:Name="inputWork" Width="26" Margin="2"/>
-        <Label Content="Выход" HorizontalAlignment="Right"/>
+        <Label x:Name="lOutput" Content="Выход" HorizontalAlignment="Right" Style="{DynamicResource LabelStyle}"/>
         <Canvas Grid.Column="1" x:Name="outputWork" Width="26" Margin="2"/>
       </StackPanel>
     </Grid>
-    <TabControl Grid.Row="2" x:Name="tabWindows"
-                    SelectionChanged="tabWindows_SelectionChanged">
-      <TabControl.Resources>
-        <Style TargetType="{x:Type Grid}">
-          <Setter Property="Background" Value="DarkGray"/>
-        </Style>
-        <Style TargetType="{x:Type TabItem}">
-          <Setter Property="FontSize" Value="12"/>
-          <Setter Property="FontWeight" Value="Bold"/>
-          <Setter Property="Background" Value="Gray"/>
-        </Style>
-      </TabControl.Resources>
-      <TabControl.Background>
-        <ImageBrush ImageSource="Resources/Back.jpg"/>
-      </TabControl.Background>
+    <TabControl 
+          Grid.Row="2"
+          x:Name="tabWindows"
+          SelectionChanged="tabWindows_SelectionChanged"
+          Style="{DynamicResource TabControl}">
     </TabControl>
-    <Canvas x:Name="windowShow" Grid.Row="2"/>
+    <Border BorderBrush="Black" BorderThickness="2" Grid.Row="2" Margin="0">
+      <Canvas  x:Name="windowShow"/>
+
+    </Border>
     <Canvas Grid.Row="1">
       <Label 
             Canvas.Top="50"
@@ -120,7 +111,9 @@
             Padding="0"
             FontWeight="Bold"
             FontSize="28"
-            Content="00:00:00"/>
+            Content="00:00:00"
+        Style="{DynamicResource LabelStyle}"/>
     </Canvas>
   </Grid>
 </Window>
+  

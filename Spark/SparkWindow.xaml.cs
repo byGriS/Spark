@@ -31,9 +31,15 @@ namespace Spark {
 
     public SparkWindow() {
       InitializeComponent();
+      var uri = new Uri("Light.xaml", UriKind.Relative);
+      ResourceDictionary resourceDict = Application.LoadComponent(uri) as ResourceDictionary;
+      Application.Current.Resources.Clear();
+      Application.Current.Resources.MergedDictionaries.Add(resourceDict);
+      var uriStyles = new Uri("ThemeStyles.xaml", UriKind.Relative);
+      ResourceDictionary resourceStyles = Application.LoadComponent(uriStyles) as ResourceDictionary;
+      Application.Current.Resources.MergedDictionaries.Add(resourceStyles);
       Core.Work.EnvPath = Environment.CurrentDirectory + "\\";
     }
-
 
     private void Window_Loaded(object sender, RoutedEventArgs e) {
       try {
@@ -344,6 +350,22 @@ namespace Spark {
       Canvas.SetTop(logo, windowShow.ActualHeight - 48);
     }
 
+    private void UpdateTheme(bool dark) {
+      var uri = new Uri(dark?"Dark.xaml":"Light.xaml", UriKind.Relative);
+      ResourceDictionary resourceDict = Application.LoadComponent(uri) as ResourceDictionary;
+      Application.Current.Resources.Clear();
+      Application.Current.Resources.MergedDictionaries.Add(resourceDict);
+      var uriStyles = new Uri("ThemeStyles.xaml", UriKind.Relative);
+      ResourceDictionary resourceStyles = Application.LoadComponent(uriStyles) as ResourceDictionary;
+      Application.Current.Resources.MergedDictionaries.Add(resourceStyles);
+      foreach(SparkControls.WindowIndicators wi in setting.Windows) {
+        foreach(SparkControls.Indicator indi in wi.ListIndicators) {
+          if (indi.GetType() == typeof(SparkControls.IndiGraph))
+            ((SparkControls.IndiGraph)indi).DarkTheme = settingCommon.Dark;
+        }
+      }
+    }
+
     #endregion
 
     #region Меню Файл
@@ -530,6 +552,7 @@ namespace Spark {
         menuGraphReset.Click += MenuGraphReset_Click;
         cm.Items.Add(menuGraphSetting);
         cm.Items.Add(menuGraphReset);
+        ((SparkControls.IndiGraph)indi).DarkTheme = settingCommon.Dark;
       }
       if (indi.GetType() == typeof(SparkControls.IndiDigital)) {
         ((SparkControls.IndiDigital)indi).OnSendData -= SparkWindow_OnSendData;
@@ -662,7 +685,12 @@ namespace Spark {
             Point dp = new Point(p.X - oldPointSize.X, p.Y - oldPointSize.Y);
             double dif = ((UserControl)indiDown).Width + dp.X;
             ((UserControl)indiDown).Width = (dif > 50) ? dif : 50;
-            dif = ((UserControl)indiDown).Height + dp.Y;
+
+            if (indiDown.GetType() == typeof(SparkControls.IndiArrow)) {
+              dif = ((UserControl)indiDown).Width;
+            } else {
+              dif = ((UserControl)indiDown).Height + dp.Y;
+            }
             ((UserControl)indiDown).Height = (dif > 50) ? dif : 50;
             oldPointSize = e.GetPosition(((UserControl)indiDown));
           } else {
@@ -891,6 +919,7 @@ namespace Spark {
         if ((e.Message != "No value exists with that name.") && (e.Message != "Значения для этого имени не существует."))
           Service.Log.LogShow(Core.Work.EnvPath, "Ошибка записи данных в реестр", e.ToString(), "Ошибка", Service.MessageViewMode.Error);
       }
+      UpdateTheme(settingCommon.Dark);
     }
 
     private void InitIsWindowMode(bool windowMode) {

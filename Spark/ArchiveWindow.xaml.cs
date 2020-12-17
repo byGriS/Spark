@@ -334,11 +334,11 @@ namespace Spark {
         DateTime min = DateTimeAxis.ToDateTime(plotter.Model.Axes[0].ActualMinimum);
         foreach (PointDate pd in selectedParam[0].Points) {
           if (pd.X > min) {
-            sqlCmd.CommandText = "select * from 'works' where id = "+pd.NumWork.ToString();
+            sqlCmd.CommandText = "select * from 'works' where numwork = "+pd.NumWork.ToString();
             SQLiteDataReader dataReader = sqlCmd.ExecuteReader();
             DataTable dt = new DataTable();
             dt.Load(dataReader);
-            well = dt.Rows[0][1].ToString() + " " + dt.Rows[0][2].ToString()+ " " + dt.Rows[0][3].ToString();
+            well = "Месторожд. " + dt.Rows[0][2].ToString() + ", куст " + dt.Rows[0][3].ToString()+ ", скв. " + dt.Rows[0][4].ToString();
             break;
           }
         }

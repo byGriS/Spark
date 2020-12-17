@@ -9,19 +9,17 @@
              Background="#FFDADADA"
              BorderBrush="Black" 
              BorderThickness="2">
-  <Grid>
-    <Grid.Resources>
-      <Style TargetType="{x:Type Grid}">
-        <Setter Property="Background" Value="#FFDADADA"/>
-      </Style>
-    </Grid.Resources>
+  <Grid Style="{DynamicResource IndiBack}">
     <Grid.RowDefinitions>
       <RowDefinition Height="1*"/>
       <RowDefinition Height="3*"/>
     </Grid.RowDefinitions>
     <Grid Grid.Row="0">
       <Viewbox Grid.Column="0">
-        <Label Content='{Binding IndiTitle, FallbackValue="Состояние входа", Mode=TwoWay}' Foreground="#FF101010" FontWeight="Bold" Padding="2"/>
+        <Label Content='{Binding IndiTitle, FallbackValue="Состояние входа", Mode=TwoWay}' 
+               FontWeight="Bold" 
+               Style="{DynamicResource LabelStyle}" 
+               Padding="2"/>
       </Viewbox>
     </Grid>
     <Viewbox Grid.Row="1">

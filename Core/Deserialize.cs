@@ -236,6 +236,9 @@ namespace Core {
       settingCommon.PathConfig = lines[indexLine++];
       settingCommon.MaxColor = (Color)ColorConverter.ConvertFromString(lines[indexLine++]);
       settingCommon.MinColor = (Color)ColorConverter.ConvertFromString(lines[indexLine++]);
+      try {
+        settingCommon.Dark = Convert.ToBoolean(lines[indexLine++]);
+      } catch { }
       return settingCommon;
     }
   }

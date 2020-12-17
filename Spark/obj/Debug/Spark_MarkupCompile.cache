@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\Spark\obj\Debug\
+C:\Users\GriS\source\repos\Spark\Spark\obj\Debug\
 Spark
 none
 false
 DEBUG;TRACE
-C:\Users\GriS\Documents\Visual Studio 2015\Projects\Spark\Spark\App.xaml
-22-1529699797
+C:\Users\GriS\source\repos\Spark\Spark\App.xaml
+25-189362805
 
 27433782803
-241899268884
-ArchiveExporterWindow.xaml;ArchiveExportToServerWindow.xaml;ArchiveWindow.xaml;ChangeUserWindow.xaml;CommonDataWindow.xaml;EthernetSettingControl.xaml;InputSettingWindow.xaml;LicenseInfo.xaml;LicenseTimer.xaml;OutputSettingWindow.xaml;ParamsModbusInput.xaml;ParamsModbusOutput.xaml;ParamsTextInput.xaml;ParamsTextOutput.xaml;PipeCounterCorrectWindow.xaml;PipeCounterSetWindow.xaml;SelectDataParamOutput.xaml;SerialSettingControl.xaml;SettingCommonWindow.xaml;SettingGraphsWindow.xaml;SparkWindow.xaml;UnitSetWindow.xaml;
+241186041160
+ArchiveExporterWindow.xaml;ArchiveExportToServerWindow.xaml;ArchiveWindow.xaml;ChangeUserWindow.xaml;CommonDataWindow.xaml;Dark.xaml;EthernetSettingControl.xaml;InputSettingWindow.xaml;LicenseInfo.xaml;LicenseTimer.xaml;Light.xaml;OutputSettingWindow.xaml;ParamsModbusInput.xaml;ParamsModbusOutput.xaml;ParamsTextInput.xaml;ParamsTextOutput.xaml;PipeCounterCorrectWindow.xaml;PipeCounterSetWindow.xaml;SelectDataParamOutput.xaml;SerialSettingControl.xaml;SettingCommonWindow.xaml;SettingGraphsWindow.xaml;SparkWindow.xaml;ThemeStyles.xaml;UnitSetWindow.xaml;
 
 False
 
